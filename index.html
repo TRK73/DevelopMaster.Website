@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <title>DevelopMaster Site</title>
+  <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
+  <link rel="stylesheet" type="text/css" href="stylescript2.css">
+
+  <title>Login Page</title>
+  <style>
+    body {
+      
+      background-color: transparent;
+    }
+    form {
+      background-color: transparent;
+      height: 500px;
+      padding: 60px;
+      margin: 50px auto;
+      width: 500px;
+      border-radius: 10px;
+      box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
+
+    }
+
+    h2{
+      color: white;
+    }
+    input[type="text"], input[type="password"] {
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      background-color: #f43a3a;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.7s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #8d0f0f;
+    }
+    .error {
+      color: #f43a3a;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .switch-between {
+      display: flex;
+      justify-content: center;
+      color: white;
+    }
+
+    #show-register-link{
+      text-decoration: none;
+      color: #f43a3a;
+      transition: 0.5s ease;
+      padding-left: 20px;
+    }
+    #show-register-link:hover{
+      text-decoration: none;
+      color: #8d0f0f;
+    }
+    #show-login-link{
+      text-decoration: none;
+      color: #f43a3a;
+      transition: 0.5s ease;
+      padding-left: 20px;
+    }
+    #show-login-link:hover{
+      text-decoration: none;
+      color: #8d0f0f;
+    }
+    @media (max-width:841px){
+      form{
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none;
+        width: 350px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="login-section">
+    <form id="login-form" action="#" class="slide-up">
+      <h2 class="hiddenb">Login</h2>
+      <div id="login-error-message" class="error slide-down"></div>
+      <label for="login-email">Email</label>
+      <input type="text" id="login-email" name="email" required>
+      <label for="login-password">Password</label>
+      <input type="password" id="login-password" name="password" required>
+      <input type="submit" value="Login">
+    </form>
+    <p class="switch-between slide-left">Don't have an account? <a href="#" id="show-register-link">Sign up here</a></p>
+  </div>
+  <div id="register-section" style="display: none;">
+    <form id="register-form" action="#" class="slide-down">
+      <h2 class="hiddenb">Register</h2>
+      <div id="register-error-message" class="error slide-down"></div>
+      <label for="register-email">Email</label>
+      <input type="text" id="register-email" name="email" required>
+      <label for="register-password">Password</label>
+      <input type="password" id="register-password" name="password" required>
+      <input type="submit" value="Register">
+    </form>
+    <p class="switch-between slide-right">Already have an account? <a href="register.html" id="show-login-link">Sign in here</a></p>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+  <script src="firebase.js"></script>
+  <script src="index.js"></script>
+  <script src="animations.js"></script>
+</body>
+</html>
