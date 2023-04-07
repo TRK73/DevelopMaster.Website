@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="Style.css">
-  <title>DevelopMaster Site</title>
+  
   <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
   <link rel="stylesheet" type="text/css" href="stylescript2.css">
 
@@ -85,6 +85,17 @@
       text-decoration: none;
       color: #8d0f0f;
     }
+
+    .link-to-reset{
+      text-decoration: none;
+      color: #f43a3a;
+      transition: 0.5s ease;
+      padding-left: 20px;
+    }
+    .link-to-reset:hover{
+      text-decoration: none;
+      color: #8d0f0f;
+    }
     @media (max-width:841px){
       form{
         background-color: transparent;
@@ -104,8 +115,10 @@
       <input type="text" id="login-email" name="email" required>
       <label for="login-password">Password</label>
       <input type="password" id="login-password" name="password" required>
+      <p class="switch-between">Forgot your password? <a href="reset-password.html" class="link-to-reset">Reset Password</a></p>
       <input type="submit" value="Login">
     </form>
+    
     <p class="switch-between slide-left">Don't have an account? <a href="#" id="show-register-link">Sign up here</a></p>
   </div>
   <div id="register-section" style="display: none;">
@@ -118,7 +131,8 @@
       <input type="password" id="register-password" name="password" required>
       <input type="submit" value="Register">
     </form>
-    <p class="switch-between slide-right">Already have an account? <a href="register.html" id="show-login-link">Sign in here</a></p>
+ 
+    <p class="switch-between slide-right">Already have an account? <a href="#" id="show-login-link">Sign in here</a></p>
   </div>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>

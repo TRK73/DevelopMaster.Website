@@ -44,17 +44,17 @@ loginForm.addEventListener('submit', function(event) {
 
 // Handle register form submission
 registerForm.addEventListener('submit', function(event) {
-    event.preventDefault();
-    const email = registerForm['register-email'].value;
-    const password = registerForm['register-password'].value;
-    firebase.auth().createUserWithEmailAndPassword(email, password)
-        .then(() => {
-            registerErrorMessage.style.display = 'none';
-            registerForm.reset();
-            window.location.href = 'index.html';
-        })
-        .catch(error => {
-            registerErrorMessage.style.display = 'block';
-            registerErrorMessage.textContent = error.message;
-        });
+  event.preventDefault();
+  const email = registerForm['register-email'].value;
+  const password = registerForm['register-password'].value;
+  firebase.auth().createUserWithEmailAndPassword(email, password)
+      .then(() => {
+          registerErrorMessage.style.display = 'none';
+          registerForm.reset();
+          window.location.href = 'index.html';
+      })
+      .catch(error => {
+          registerErrorMessage.style.display = 'block';
+          registerErrorMessage.textContent = error.message;
+      });
 });
