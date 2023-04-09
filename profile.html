@@ -18,6 +18,10 @@
     <a href="#" class="logo slide-down">DevelopMaster</a>
     
 
+    <div id="protected-content" style="display:none;">
+      <h1>Welcome to the protected page!</h1>
+      <p>This content is only accessible to logged-in users.</p>
+    </div>
     
     
     
@@ -267,6 +271,13 @@
       };
 
       firebase.initializeApp(firebaseConfig);
+      // Wait for the page to load
+      firebase.auth().onAuthStateChanged(function(user) {
+        if (!user) {
+          // Redirect to the login page if the user is not logged in
+          window.location.href = "index.html";
+        }
+      });
 
        
      

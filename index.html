@@ -96,6 +96,19 @@
       text-decoration: none;
       color: #8d0f0f;
     }
+
+    .note-register{
+      color: #f43a3a;
+      font-weight: 300;
+      font-size: 1.3em;
+      text-align: center;
+    }
+    .note-register span{
+      color: white;
+      font-weight: 300;
+      font-size: 0.9em;
+      text-align: center;
+    }
     @media (max-width:841px){
       form{
         background-color: transparent;
@@ -104,6 +117,7 @@
         width: 350px;
       }
     }
+    
   </style>
 </head>
 <body>
@@ -130,6 +144,7 @@
       <label for="register-password">Password</label>
       <input type="password" id="register-password" name="password" required>
       <input type="submit" value="Register">
+      <h2 class="note-register">*Important :<span> put a valid email because the games or products you want to get from here there links will be sent to your email</span>.*</h2>
     </form>
  
     <p class="switch-between slide-right">Already have an account? <a href="#" id="show-login-link">Sign in here</a></p>
@@ -138,6 +153,7 @@
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
   <script src="firebase.js"></script>
+
   <script src="index.js"></script>
   <script src="animations.js"></script>
 </body>
