@@ -8,8 +8,25 @@ label {
     display: block;
     margin-bottom: 10px;
     width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
+    background-color: transparent;
+    border: 1px solid white;
+    color: #f43a3a;
+    padding-left: 10px;
   }
-  
+  input, textarea{
+    border-radius: 10px;
+    
+
+  }
+
+  input, textarea:hover{
+    border: 1px solid #f43a3a;
+    
+  }
   button[type="submit"] {
     color: white;
     background-color: rgb(244, 58, 58, 1);

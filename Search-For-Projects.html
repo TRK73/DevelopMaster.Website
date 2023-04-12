@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">DevelopMaster</a>
+        <a href="index.html" class="logo slide-down">DevelopMaster</a>
         
     
         
@@ -21,7 +21,7 @@
         
        
       
-        <nav class="navigation">
+        <nav class="navigation slide-left">
     
           
           
@@ -54,14 +54,14 @@
       
     <section>
         
-        <div class="search-container">
+        <div class="search-container slide-down">
           <input type="text1" id="myInput" placeholder="Search..." class="search">
           <button type="button" onclick="searchProjects()">Search</button>
         </div>
         
         <div id="projects-list">
           <div class="content">
-            <div class="project-card2" data-title="Escape The Island">
+            <div class="project-card2 slide-up" data-title="Escape The Island">
               <div class="project-image">
                 <img src="Images-and-videos/My Game Picture.png"/>
               </div>
@@ -73,7 +73,7 @@
                 </strong>
               </div>
             </div>
-            <div class="project-card2" data-title="Brick Factory">
+            <div class="project-card2 slide-down" data-title="Brick Factory">
               <div class="project-image">
                 <img src="Images-and-videos/MyRobloxMapIMG.png"/>
               </div>
@@ -86,7 +86,7 @@
               </div>
             </div>
             
-            <div class="project-card2" data-title="Donut Factory">
+            <div class="project-card2 slide-up" data-title="Donut Factory">
               <div class="project-image">
                 <video class="video"width="367" height="300" controls>
                   <source src="Images-and-videos/DonutFactoryVideo.mp4" type="video/mp4">
@@ -136,7 +136,7 @@
           var user = firebase.auth().currentUser;
 
           if (!user) {
-            window.location.href = 'index.html';
+            // window.location.href = 'index.html';
       
           
           }

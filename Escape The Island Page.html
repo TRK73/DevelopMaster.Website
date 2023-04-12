@@ -43,21 +43,23 @@ header{
   text-transform: uppercase;
 
 }
-
-.navigation a{
-  
-  color: #3a8bf4;
-  text-decoration: none;
-
-  padding-left: 30px;
+.navigation .main-nav {
+  color: #3ab9f4;
   transition: 0.3s ease;
 }
 
-.navigation a:hover{
+.navigation .main-nav:hover{
   color: #0f508d;
-  transform: scale(1.1);
+  
 }
 
+.navigation .other-nav{
+  color: #0004ff;
+  transition: 0.3s ease;
+}
+.navigation .other-nav:hover{
+  color: #00038d;
+}
 section{
   padding: 100px 200px;
 }
@@ -295,64 +297,19 @@ section{
     }
   }
 
-
-
-
-  .mobile-nav{
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 100%;
-    border-radius: 15px;
-    width: 100%;
-    min-height: 100vh;
-    z-index: 998;
-    background-color: rgb(24, 24, 24);
-    padding-top: 120px;
-    transition: 0.1s ease;
-  }
-
-  .mobile-nav.is-active{
-    left: 0%;
+  .mobile-nav {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 90%, #0f508d 100%);
+    z-index: 9999;
+  
   }
 
 
-
-  .mobile-nav a{
-    color: white;
-    background-color: #3a8bf4;
-    text-decoration: none;
-
-    display: block;
-    padding: 12px 16px;
-    letter-spacing: 3px;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 200px;
-    transition: 0.7s ease;
-    text-align: center;
-    margin: 0 auto 16px;
-    
-  }
-
-  .mobile-nav a:hover{
-    background-color: rgb(27, 27, 27);
-    transform: scale(1.1);
-  }
 
 
 }
 @media (min-width:641px){
   
-  .mobile-nav{
-   display: none;
-  
-  }
 
-  .hamburger{
-   display: none;
-  }
   .info-contact{
     font-size: 0.3em;
     color: white;
@@ -677,7 +634,9 @@ section{
   
   }
   @media (min-width:1000px){
-  
+    .mobile-nav{
+      display: none;
+    }
     .requirements{
     color: #3a8bf4;
     display: flex;
@@ -721,6 +680,9 @@ section{
     }
   }
   @media (min-width:1400px){
+    .mobile-nav{
+      display: none;
+    }
     .requirements{
     color: #3a8bf4;
     display: flex;
@@ -846,26 +808,22 @@ section{
 <body>
     <header>
         <a href="index.html" class="logo">DevelopMaster</a>
-        <a class="search-bar">
-          <form action="https://www.google.com/search" method="get">
-            <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="search" name="q" title="Search For Something In Google From Here" class="search">
-          </form>
-       
-        </a>
         
+     
     
        
         <nav class="navigation">
     
           
-          <a href="profile.html">< go back</a>
-          <a href="#home">home</a>
-          <a href="#info">info</a>
-          <a href="#pictures">pictures</a>
+          <a class= "main-nav"href="profile.html">< go back</a>
+          <a class= "other-nav"href="Search-For-Projects.html">search</a>
+          <a class= "other-nav"href="#home">home</a>
+          <a class= "other-nav" href="#info">info</a>
+          <a class= "other-nav" href="#pictures">pictures</a>
 
-          <a href="#download-page">download</a>
+          <a class= "other-nav" href="#download-page">download</a>
 
-          <a href="#contact">contact</a>
+          <a class= "other-nav" href="#contact">contact</a>
           
           
         </nav>
@@ -874,23 +832,15 @@ section{
         </button>
       </header>
       <header class="Arrow">
-        <a href="#" class="back-to-top"><i class="fa fa-arrow-up"></i></a>
-    
+        <a href="#" class="back-to-top"><i class="fa fa-arrow-up"></i></a>   
       </header>
       <nav class="mobile-nav">
-        <div class="navs">
-          <div class="container">
-            <form action="https://www.google.com/search" method="get">
-              <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="search" name="q" title="Type in a category" class="search-1">
-            </form>
-          
-    
-          </div>
-    
         
-        </div>
         <div class="navs">
           <a href="profile.html">< go back</a>
+        </div>
+        <div class="navs">
+          <a href="Search-For-Projects.html">search</a>
         </div>
         <div class="navs">
           <a href="#home">home</a>
@@ -904,7 +854,7 @@ section{
           <a href="#pictures">pictures</a>
 
         </div>
-            <div class="navs">
+        <div class="navs">
          
           <a href="#download-page">download</a>
         </div>
@@ -1059,7 +1009,7 @@ section{
         firebase.auth().onAuthStateChanged(function(user) {
           if (!user) {
             // Redirect to the login page if the user is not logged in
-            window.location.href = "index.html";
+            //window.location.href = "index.html";
           }
         });
 

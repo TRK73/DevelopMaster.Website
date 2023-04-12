@@ -1,8 +1,8 @@
-let searchActive = false;
+
 
 window.onload = function (){
+    
 
- 
 
     const menu_btn = document.querySelector('.hamburger')
     const mobile_menu = document.querySelector('.mobile-nav')
@@ -12,7 +12,7 @@ window.onload = function (){
     menu_btn.addEventListener('click', function () {
         menu_btn.classList.toggle('is-active');
         mobile_menu.classList.toggle('is-active');
-
+     
         
     });
      
@@ -26,9 +26,18 @@ window.onload = function (){
         if (window.scrollY > 200) {
           document.querySelector('.back-to-top').style.display = 'block';
           document.querySelector('header').classList.add('invisible');
+        
+          menu_btn.classList.remove('is-active');
+          mobile_menu.classList.remove('is-active');
         } else {
           document.querySelector('.back-to-top').style.display = 'none';
           document.querySelector('header').classList.remove('invisible');
+          menu_btn.classList.add('is-active');
+          mobile_menu.classList.add('is-active');
+             
+             
+          
+
         }
       
       

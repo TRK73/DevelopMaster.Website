@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="Style.css">
-  
+  <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+
   <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
   <link rel="stylesheet" type="text/css" href="stylescript2.css">
 
@@ -109,6 +111,8 @@
       font-size: 0.9em;
       text-align: center;
     }
+
+
     @media (max-width:841px){
       form{
         background-color: transparent;
@@ -144,10 +148,13 @@
       <label for="register-password">Password</label>
       <input type="password" id="register-password" name="password" required>
       <input type="submit" value="Register">
-      <h2 class="note-register">*Important :<span> put a valid email because the games or products you want to get from here there links will be sent to your email</span>.*</h2>
+      
+   
+     
+      <h2 class="note-register slide-down">*Important :<span> put a valid email because the games or products you want to get from here there links will be sent to your email</span>.*</h2><br><br>
     </form>
- 
-    <p class="switch-between slide-right">Already have an account? <a href="#" id="show-login-link">Sign in here</a></p>
+   
+    <p class="switch-between slide-up">Already have an account? <a href="#" id="show-login-link">Sign in here</a></p>
   </div>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
@@ -156,5 +163,19 @@
 
   <script src="index.js"></script>
   <script src="animations.js"></script>
+  <script>
+    var ui = new firebaseui.auth.AuthUI(firebase.auth());
+    var provider = new firebase.auth.GoogleAuthProvider();
+    console.log(provider.providerId); // 'google.com'
+
+    ui.start('#firebaseui-auth', {
+      signInOptions: [
+        firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+        
+      ],
+      // Other config options...
+    });
+
+  </script>
 </body>
 </html>
