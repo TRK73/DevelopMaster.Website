@@ -181,6 +181,14 @@
    
     // Create a FirebaseUI instance
     var ui = new firebaseui.auth.AuthUI(firebase.auth());
+    // Set up Microsoft Azure AD as a sign-in option
+    var microsoftProvider = new firebase.auth.OAuthProvider('microsoft.com');
+    microsoftProvider.setCustomParameters({
+      // Replace with your Azure AD client ID
+      client_id: '4b11ffb3-a705-4206-b244-dc0b17e500e0',
+      // Specify the required scopes
+      scope: 'api://4b11ffb3-a705-4206-b244-dc0b17e500e0/DevelopmasterScope',
+    });
 
     // Configure the FirebaseUI sign-in options
     var uiConfig = {
@@ -188,17 +196,17 @@
         firebase.auth.GoogleAuthProvider.PROVIDER_ID, // Add the Google provider
         // Add other providers as needed
         firebase.auth.GithubAuthProvider.PROVIDER_ID,
-        firebase.auth.FacebookAuthProvider.PROVIDER_ID
+        firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+        microsoftProvider.providerId, // Add Microsoft as a provider
         
-
       ],
       signInFlow: 'popup', // Use the pop-up sign-in flow
       signInSuccessUrl: 'profile.html', // Redirect to this URL after successful sign-in
       // Additional configuration options as needed
-    };  
+    };
+
     ui.start('#firebaseui-auth-container', uiConfig);
 
-    
     // Detect when user is signed in
     firebase.auth().onAuthStateChanged(function(user) {
       if (user) {
@@ -207,7 +215,6 @@
       }
     });
     // Start the Firebase UI sign-in widget
-    
 
 
   </script>
