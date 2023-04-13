@@ -1,0 +1,7 @@
+.interactive-bg {
+    width: 100%; /* Adjust to desired size */
+    height: 100vh; /* Adjust to desired size */
+    background: linear-gradient(to right, #000000, #ff0000); /* Initial gradient colors */
+    transition: background 0.5s ease; /* Add smooth transition for color changes */
+  }
+  

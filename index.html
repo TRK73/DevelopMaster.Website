@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="Style.css">
   <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
   <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
-
+  <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
   <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
   <link rel="stylesheet" type="text/css" href="stylescript2.css">
 
@@ -18,7 +19,7 @@
       
       background-color: transparent;
     }
-    form {
+    #login-form {
       background-color: transparent;
       height: 500px;
       padding: 60px;
@@ -111,7 +112,17 @@
       font-size: 0.9em;
       text-align: center;
     }
+    .form .button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .google-signin{
+      
+     padding-top: 20px;
+    }
 
+    
 
     @media (max-width:841px){
       form{
@@ -135,8 +146,12 @@
       <input type="password" id="login-password" name="password" required>
       <p class="switch-between">Forgot your password? <a href="reset-password.html" class="link-to-reset">Reset Password</a></p>
       <input type="submit" value="Login">
+      <div class = "Google-signin"id="firebaseui-auth-container"></div>
+
     </form>
+      
     
+
     <p class="switch-between slide-left">Don't have an account? <a href="#" id="show-register-link">Sign up here</a></p>
   </div>
   <div id="register-section" style="display: none;">
@@ -164,17 +179,33 @@
   <script src="index.js"></script>
   <script src="animations.js"></script>
   <script>
+   
+  
+   
+    // Create a FirebaseUI instance
     var ui = new firebaseui.auth.AuthUI(firebase.auth());
-    var provider = new firebase.auth.GoogleAuthProvider();
-    console.log(provider.providerId); // 'google.com'
 
-    ui.start('#firebaseui-auth', {
+    // Configure the FirebaseUI sign-in options
+    var uiConfig = {
       signInOptions: [
-        firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-        
+        firebase.auth.GoogleAuthProvider.PROVIDER_ID, // Add the Google provider
+        // Add other providers as needed
       ],
-      // Other config options...
+      signInFlow: 'popup', // Use the pop-up sign-in flow
+      signInSuccessUrl: 'profile.html', // Redirect to this URL after successful sign-in
+      // Additional configuration options as needed
+    };
+
+    // Start the FirebaseUI sign-in flow
+    ui.start('#firebaseui-auth-container', uiConfig);
+    // Detect when user is signed in
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        // User is signed in, redirect to example.html
+        window.location.href = 'profile.html';
+      }
     });
+
 
   </script>
 </body>
