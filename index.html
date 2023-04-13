@@ -29,6 +29,16 @@
       box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
 
     }
+    #register-section {
+      background-color: transparent;
+      height: 600px;
+      padding: 60px;
+      margin: 50px auto;
+      width: 500px;
+      border-radius: 10px;
+      box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
+
+    }
 
     h2{
       color: white;
@@ -128,6 +138,13 @@
         box-shadow: none;
         width: 350px;
       }
+      #register-section {
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none;
+        width: 350px;
+
+      }
     }
     
   </style>
@@ -185,9 +202,9 @@
     var microsoftProvider = new firebase.auth.OAuthProvider('microsoft.com');
     microsoftProvider.setCustomParameters({
       // Replace with your Azure AD client ID
-      client_id: '4b11ffb3-a705-4206-b244-dc0b17e500e0',
+      client_id: '2bfe74d7-6795-4ab3-acd1-c3b46ae20b83',
       // Specify the required scopes
-      scope: 'api://4b11ffb3-a705-4206-b244-dc0b17e500e0/DevelopmasterScope',
+      scope: '',
     });
 
     // Configure the FirebaseUI sign-in options
@@ -216,7 +233,7 @@
     });
     // Start the Firebase UI sign-in widget
 
-
+    
   </script>
   <script>
     window.fbAsyncInit = function() {
