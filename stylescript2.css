@@ -249,3 +249,7 @@ body.no-scroll {
   transform: translateY(0);
 
 }
+
+.li {
+  color: #fff;
+}

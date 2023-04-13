@@ -119,27 +119,29 @@
       <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
       <script>
 
-          // Initialize Firebase
-          var firebaseConfig = {
-            apiKey: "AIzaSyDjYppLG4hNfSV-jHluOyHADtlyhaijvOs",
-            authDomain: "signup-login-90211.firebaseapp.com",
-            projectId: "signup-login-90211",
-            storageBucket: "signup-login-90211.appspot.com",
-            messagingSenderId: "183494741824",
-            appId: "1:183494741824:web:2210d42663ab10f0d634a5",
-            measurementId: "G-EGW4LH3V3P"
-          };
-
-          firebase.initializeApp(firebaseConfig);
-
-          
-          var user = firebase.auth().currentUser;
-
+        // Initialize Firebase
+        var firebaseConfig = {
+          apiKey: "AIzaSyDjYppLG4hNfSV-jHluOyHADtlyhaijvOs",
+          authDomain: "signup-login-90211.firebaseapp.com",
+          projectId: "signup-login-90211",
+          storageBucket: "signup-login-90211.appspot.com",
+          messagingSenderId: "183494741824",
+          appId: "1:183494741824:web:2210d42663ab10f0d634a5",
+          measurementId: "G-EGW4LH3V3P"
+        };
+  
+        firebase.initializeApp(firebaseConfig);
+        // Wait for the page to load
+        firebase.auth().onAuthStateChanged(function(user) {
           if (!user) {
-            // window.location.href = 'index.html';
-      
-          
+            // Redirect to the login page if the user is not logged in
+            window.location.href = "index.html";
           }
-      </script>
+        });
+  
+         
+       
+    </script>
+    
 </body>
 </html>

@@ -172,7 +172,7 @@
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
   <script src="firebase.js"></script>
-
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
   <script src="index.js"></script>
   <script src="animations.js"></script>
   <script>
@@ -210,6 +210,24 @@
     
 
 
+  </script>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1947226525629754',
+        xfbml      : true,
+        version    : 'v16.0'
+      });
+      FB.AppEvents.logPageView();
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>
 </html>

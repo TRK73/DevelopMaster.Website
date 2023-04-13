@@ -991,7 +991,6 @@ section{
       <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
       <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
       <script>
-      
 
         // Initialize Firebase
         var firebaseConfig = {
@@ -1003,18 +1002,22 @@ section{
           appId: "1:183494741824:web:2210d42663ab10f0d634a5",
           measurementId: "G-EGW4LH3V3P"
         };
-
+  
         firebase.initializeApp(firebaseConfig);
         // Wait for the page to load
         firebase.auth().onAuthStateChanged(function(user) {
           if (!user) {
             // Redirect to the login page if the user is not logged in
-            //window.location.href = "index.html";
+            window.location.href = "index.html";
           }
         });
-
+  
+         
+       
+    </script>
+    
       
 
-      </script>
+      
 </body>
 </html>
