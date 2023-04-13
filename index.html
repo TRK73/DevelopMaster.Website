@@ -187,14 +187,16 @@
       signInOptions: [
         firebase.auth.GoogleAuthProvider.PROVIDER_ID, // Add the Google provider
         // Add other providers as needed
+        firebase.auth.GithubAuthProvider.PROVIDER_ID
+
       ],
       signInFlow: 'popup', // Use the pop-up sign-in flow
       signInSuccessUrl: 'profile.html', // Redirect to this URL after successful sign-in
       // Additional configuration options as needed
-    };
-
-    // Start the FirebaseUI sign-in flow
+    };  
     ui.start('#firebaseui-auth-container', uiConfig);
+
+    
     // Detect when user is signed in
     firebase.auth().onAuthStateChanged(function(user) {
       if (user) {
@@ -202,6 +204,8 @@
         window.location.href = 'profile.html';
       }
     });
+    // Start the Firebase UI sign-in widget
+    
 
 
   </script>
