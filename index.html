@@ -12,7 +12,9 @@
   <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
   <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
   <link rel="stylesheet" type="text/css" href="stylescript2.css">
-
+  <script src="https://www.google.com/recaptcha/api.js?render=6LefOIolAAAAAP8Olu_sDW9uCHH4HACeeZblINEq"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7489999413558166"
+     crossorigin="anonymous"></script>
   <title>Login Page</title>
   <style>
     body {
@@ -21,20 +23,20 @@
     }
     #login-form {
       background-color: transparent;
-      height: 600px;
+      height: 700px;
       padding: 60px;
       margin: 50px auto;
-      width: 500px;
+      width: 600px;
       border-radius: 10px;
       box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
 
     }
-    #register-section {
+    #register-form {
       background-color: transparent;
-      height: 600px;
+      height: 700px;
       padding: 60px;
       margin: 50px auto;
-      width: 500px;
+      width: 600px;
       border-radius: 10px;
       box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
 
@@ -136,13 +138,13 @@
         background-color: transparent;
         border-color: transparent;
         box-shadow: none;
-        width: 350px;
+        width: 400px;
       }
-      #register-section {
+      #register-form {
         background-color: transparent;
         border-color: transparent;
         box-shadow: none;
-        width: 350px;
+        width: 400px;
 
       }
     }
@@ -150,6 +152,21 @@
   </style>
 </head>
 <body>
+  <div class="alignleft">
+    <script type="text/javascript">
+        amzn_assoc_ad_type = "banner";
+        amzn_assoc_marketplace = "amazon";
+        amzn_assoc_region = "US";
+        amzn_assoc_placement = "assoc_banner_placement_default";
+        amzn_assoc_campaigns = "amazonfashion";
+        amzn_assoc_banner_type = "category";
+        amzn_assoc_isresponsive = "true";
+        amzn_assoc_banner_id = "16WMC1S47DJG0A0MEW82";
+        amzn_assoc_tracking_id = "developmaster-20";
+        amzn_assoc_linkid = "{{link_id}}";
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1"></script>
+   </div>
   <div id="login-section">
     <form id="login-form" action="#" class="slide-up">
       <h2 class="hiddenb">Login</h2>
@@ -178,13 +195,15 @@
       <input type="password" id="register-password" name="password" required>
       <input type="submit" value="Register">
       
-   
+      <div class="g-recaptcha" data-sitekey="6LefOIolAAAAAP8Olu_sDW9uCHH4HACeeZblINEq" data-action="action_name"></div>
+
      
       <h2 class="note-register slide-down">*Important :<span> put a valid email because the games or products you want to get from here there links will be sent to your email</span>.*</h2><br><br>
     </form>
    
     <p class="switch-between slide-up">Already have an account? <a href="#" id="show-login-link">Sign in here</a></p>
   </div>
+  
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
@@ -253,5 +272,6 @@
        fjs.parentNode.insertBefore(js, fjs);
      }(document, 'script', 'facebook-jssdk'));
   </script>
+  
 </body>
 </html>
