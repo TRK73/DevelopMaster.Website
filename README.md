@@ -1,3 +1,3 @@
 # DevelopMaster.Website
 
-The Website Link : https://trk73.github.io/developmaster.website.github.com/
+The Website Link : https://ys.yusifsite.net/
