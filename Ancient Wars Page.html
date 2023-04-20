@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="Style.css">
+    <title>DevelopMaster Site - Escape The Island Page</title>
+    <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
+    <link rel="stylesheet" href="stylescript2.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+      html{
+  background-color: rgb(26, 26, 26);
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+header{
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+
+}
+
+.logo{
+  text-decoration: none;
+  color: #ff8800;
+  text-transform: uppercase;
+
+}
+.navigation .main-nav {
+  color: #f4c23a;
+  transition: 0.3s ease;
+}
+
+.navigation .main-nav:hover{
+  color: #c5a800;
+  
+}
+
+.navigation .other-nav{
+  color: #ff8800;
+  transition: 0.3s ease;
+}
+.navigation .other-nav:hover{
+  color: #8d5000;
+}
+section{
+  padding: 100px 200px;
+}
+.info .info-contact{
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+.main h2{
+  color: white;
+
+}
+.main h2 span{
+  display: inline-block;
+  margin-top: 10px;
+  color: #f4c23a;
+
+}
+
+.main h3{
+  color: white;
+
+  letter-spacing: 1px;
+  margin-top: 20px;
+  
+}
+
+.main-btn{
+  color: white;
+  background-color: #ff8800;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover{
+  background-color:  #8d5000;
+  transform: scale(1.1);
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.7em;
+  padding-right: 30px;
+  transition: 0.7s ease;
+}
+.social-icons a:hover{
+  color: rgb(134, 134, 134);
+  font-size: 1.7001em;
+  
+}
+.about{
+  background: url(Images-and-videos/WebBg2.png);
+  background-size: 400px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+.description{
+  color: white;
+
+  display: flex;
+  justify-content: left; 
+  letter-spacing: 1px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;  
+}
+
+.title-2{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  margin-bottom: 30px;
+} 
+
+.card{
+  background-color: rgb(27, 27, 27);
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(85, 85, 85, 0.26);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.icon {
+  color: #ff8800;
+  font-size: 8em;
+  text-align: center;
+}
+
+.info{
+  color: white;
+  text-align: center;
+}
+
+.info h3 {
+  color: #ff8800;
+
+  margin: 10px;
+}
+
+.footer {
+  color: white;
+  
+  background-size: 400px;
+  background-position-y: 9000px;
+  padding: 2em;
+
+  justify-content: space-between;
+}
+
+
+.footer span{
+
+  color: #ff8800;
+}
+
+@media (max-width:1023px){
+  header {
+    padding: 12px 20px;
+    font-size: 0.6em;
+  }
+  
+  .info .info-contact{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+  }
+  .navigation a{
+    padding-left: 5px;
+    font-size: 1.35em;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+
+  section{
+    padding: 80px 20px;
+  }
+  .main-content h2{
+    font-size: 1em;
+  }
+
+  .main-content h3{
+    font-size: 1.6em;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width:641px){
+    body{
+      font-size: 12px;
+    }
+    .main-content h2{
+      font-size: 0.8em;
+    }
+    .main-content h3{
+      font-size: 1.4em;
+    }
+
+ 
+  
+  }
+  @media (max-width:641px){
+    body{
+      font-size: 10px;
+    }
+    
+    .footer .social-icons{
+      padding-left: 2px;
+    }
+    .content .project-card{
+      background-color: rgb(26, 26, 26);
+      border: 1px solid rgb(18, 18, 18);
+      min-height: 14em;
+      width: 350px;
+      overflow: hidden;
+      border-radius: 10px;
+      margin: 20px;
+      transition: 0.7s ease;
+      display: block;
+  
+      padding-top: 30px;
+    }
+    .project-image {
+      width: 100%;
+    }
+  }
+
+  .mobile-nav {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 90%, #8d5000 100%);
+    z-index: 9999;
+  
+  }
+
+
+
+
+}
+@media (min-width:641px){
+  
+
+  .info-contact{
+    font-size: 0.3em;
+    color: white;
+    text-align: center;
+  }
+
+ }
+
+
+@media (max-width:641px){
+
+  .main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+  .navigation a{
+    display: none;
+  }
+  header {
+    font-size: 1.5em;
+  }
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .info .info-contact{
+    font-size: 0.75em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+  }
+  .video{
+    
+    width: 230px;
+    height: 200px;
+  }
+  .search-bar{
+    display: none;
+  }
+}
+
+.projects {
+  background-color: rgba(85, 85, 85, 0.26);
+}
+
+.projects .content{
+  margin-top: 30px;
+}
+
+.project-card{
+  background-color: rgb(26, 26, 26);
+  border: 1px solid rgb(18, 18, 18);
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+  display: block;
+  width: 900px;
+  padding-top: 30px;
+}
+
+.project-card:hover{
+  transform: scale(1.1);
+}
+.project-card:hover .project-image{
+  opacity: 0.9;
+}
+
+.project-image img{
+  width: 100%;
+  
+}
+
+.project-info{
+  padding: 1em;
+}
+
+.project-category{
+  font-size: 2em;
+  letter-spacing: 2px;
+
+  display: flex;
+ 
+  justify-content: center;
+  text-decoration: none;
+  
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+
+  margin-top: 10px;
+  justify-content: center;
+  color: #f4c23a;
+  text-decoration: none;
+}
+
+.more-details{
+  text-decoration: none;
+  color: #f4c23a;
+  transition: 0.7s ease;
+  padding-right: 10px;
+}
+
+.more-details:hover{
+  color:  #8d5000;
+  transform: scale(1.1);
+}
+
+.note{
+  color: #f4c23a;
+  justify-content: center;
+  letter-spacing: 2.5px;
+  padding-top: 50px;
+  font-weight: 400;
+
+}
+
+.note span{
+  color: #fff;
+  justify-content: center;
+  letter-spacing: 2.5px;
+  font-weight: 300;
+
+}
+
+
+  .note2{
+    color: #ff8800;
+    justify-content: center;
+    letter-spacing: 2.5px;
+    padding-top: 50px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  .note2 span{
+    color: #fff;
+    font-weight: 300;
+    
+    letter-spacing: 2.5px;
+  }
+
+
+
+  .contact-card:hover{
+    transform: scale(1.1);
+  }
+
+
+
+  .search{
+   
+    position: relative;
+   
+    height: 25px;
+    border-radius: 50%;
+    padding: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans' sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+    overflow: hidden;
+    background-image: url(icons/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 45% 50%;
+    background-color: #ff8800;
+    border-color: #8d5000;
+    width: 600px;
+    padding-left: 40px;
+    cursor: text;
+    border-radius: 0%;
+    color: #fff;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid  #c5a800;
+    background-image: url(icons/magnifying-glass-solid-white-svg.svg);
+    background-size: 22px;
+    background-position: 10px 50%;
+    font-weight: 300;
+  }
+
+  .search:hover{
+    border: 1px solid black;
+    background-color: rgba(85, 85, 85, 0.26);
+  }
+
+  .search:focus{
+      width: 200px;
+      padding-left: 40px;
+      cursor: text;
+      border-radius: 0%;
+      color: #fff;
+      outline: none;
+      background-color: transparent;
+      border: 1px solid  #8d5000;
+      background-image: url(icons/magnifying-glass-solid-white-svg.svg);
+      background-size: 22px;
+      background-position: 10px 50%;
+  } 
+  
+  .search-1{
+    position: relative;
+    border: 1px solid  #8d5000;
+  
+    
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 45% 50%;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 300;
+    display: block;
+    padding: 12px 16px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 240px;
+    transition: 0.7s ease;
+    text-align: center;
+    margin: 0 auto 16px;
+  }
+  input[placeholder="search"]{
+    color: #fff;
+  }
+ 
+ 
+
+  .search-1:hover{
+    border: 1px solid black;
+    background-color:  #8d5000;
+  }
+
+  .search-1:focus{
+      width: 280px;
+      padding-left: 40px;
+      cursor: text;
+      border-radius: 0%;
+      color: #fff;
+      outline: none;
+      background-color: transparent;
+      border: 1px solid  #8d5000;
+      background-image: url(icons/magnifying-glass-solid-white-svg.svg);
+      background-size: 22px;
+      background-position: 10px 50%;
+  } 
+
+
+  @media (min-width:641px){
+    .requirements{
+      color: #f4c23a;
+      display: flex;
+      font-size: 1.9em;
+      font-weight: 300;
+      padding-top: 50px;
+    }
+
+    .search{
+      width: 200px;
+    }
+    .project-image{
+      width: 100%;
+    }
+
+    .content .project-card{
+      background-color: rgb(26, 26, 26);
+      border: 1px solid rgb(18, 18, 18);
+      min-height: 14em;
+      width: 500px;
+      overflow: hidden;
+      border-radius: 10px;
+      margin: 20px;
+      transition: 0.7s ease;
+      display: block;
+  
+      padding-top: 30px;
+    }
+    .project-image {
+      width: 100%;
+    }
+}
+
+  .requirements{
+    color: #f4c23a;
+    display: flex;
+    font-size: 2.2em;
+    font-weight: 300;
+    padding-top: 50px;
+  }
+  .requirements span{
+    color: #ffffff;
+
+    font-size: 0.9em;
+    font-weight: 300;
+    padding-left: 10px;
+    display: inline-flex;
+    
+
+  
+  
+  }
+  @media (min-width:1000px){
+    .mobile-nav{
+      display: none;
+    }
+    .requirements{
+    color: #f4c23a;
+    display: flex;
+    font-size: 2em;
+    font-weight: 300;
+    padding-top: 50px;
+  }
+  .requirements span{
+    color: #fff;
+
+    font-size: 0.9em;
+    font-weight: 300;
+    padding-left: 10px;
+    display: inline-flex;
+    
+
+  
+  
+  }
+    .search{
+      width: 225px;
+    }
+    .navigation{
+      font-size: 0.7em;
+      
+    }
+    
+    .content .project-card{
+   
+      width: 750px;
+      overflow: hidden;
+      border-radius: 10px;
+      margin: 20px;
+      transition: 0.7s ease;
+      display: block;
+  
+      padding-top: 30px;
+    }
+    .project-image {
+      width: 100%;
+    }
+  }
+  @media (min-width:1400px){
+    .mobile-nav{
+      display: none;
+    }
+    .requirements{
+    color: #f4c23a;
+    display: flex;
+    font-size: 2.2em;
+    font-weight: 300;
+    padding-top: 50px;
+    }
+    .requirements span{
+    color: #fff;
+
+    font-size: 0.9em;
+    font-weight: 300;
+    padding-left: 10px;
+    display: inline-flex;
+    
+
+  
+  
+    }
+    .search{
+      width: 400px;
+    }
+    .navigation{
+      font-size: 1.1em;
+      
+    }
+    
+    .search:focus{
+      width: 450px;
+    }
+    .content .project-card{
+      background-color: rgb(26, 26, 26);
+      border: 1px solid rgb(18, 18, 18);
+      min-height: 14em;
+      width: 1000px;
+      overflow: hidden;
+      border-radius: 10px;
+      margin: 20px;
+      transition: 0.7s ease;
+      display: block;
+  
+      padding-top: 30px;
+    }
+    .project-image {
+      width: 100%;
+    }
+  }
+
+  @media (min-width:300px){
+    .requirements{
+    color: #f4c23a;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-top: 50px;
+    }
+    .requirements span{
+    color: #fff;
+
+    font-size: 0.9em;
+    font-weight: 300;
+    padding-left: 10px;
+    display: inline-flex;
+    
+
+  
+  
+    }
+    .content .project-card{
+      background-color: rgb(26, 26, 26);
+      border: 1px solid rgb(18, 18, 18);
+      min-height: 14em;
+      width: 250px;
+      overflow: hidden;
+      border-radius: 10px;
+      margin: 20px;
+      transition: 0.7s ease;
+      display: block;
+  
+      padding-top: 30px;
+    }
+  
+  }
+
+
+
+  .project-image{
+    display: block;
+    padding-top: 20px;
+    border: 1px solid rgb(24, 24, 24);
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+  }
+
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: #f4c23a;
+    border-radius: 20px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background: rgb(24, 24, 24);
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background:  #ff8800;
+  }
+  
+  
+
+  .download{
+    text-decoration: none;
+  }
+
+  .note{
+    text-align: center;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo slide-down">DevelopMaster</a>
+        
+     
+    
+       
+        <nav class="navigation slide-up">
+    
+          
+          <a class= "main-nav"href="profile.html">< go back</a>
+          <a class= "other-nav"href="Search-For-Projects.html">search</a>
+          <a class= "other-nav"href="#home">home</a>
+          <a class= "other-nav" href="#info">info</a>
+          <a class= "other-nav" href="#pictures">pictures</a>
+
+          <a class= "other-nav" href="#download-page">download</a>
+
+          <a class= "other-nav" href="#contact">contact</a>
+          
+          
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </header>
+      <header class="Arrow">
+        <a href="#" class="back-to-top"><i class="fa fa-arrow-up"></i></a>   
+      </header>
+      <nav class="mobile-nav">
+        
+        <div class="navs">
+          <a href="profile.html">< go back</a>
+        </div>
+        <div class="navs">
+          <a href="Search-For-Projects.html">search</a>
+        </div>
+        <div class="navs">
+          <a href="#home">home</a>
+        
+        </div>
+        <div class="navs">
+          <a href="#info">info</a>
+        
+        </div>
+        <div class="nav">
+          <a href="#pictures">pictures</a>
+
+        </div>
+        <div class="navs">
+         
+          <a href="#download-page">download</a>
+        </div>
+        <div class="navs">
+         
+          <a href="#contact">contact</a>
+        </div>
+    
+  
+      </nav>
+      <section class="main" id="home">
+        <div class="container">
+          <video autoplay loop muted play inline class="background-clip hiddenb">
+            <source src="Images-and-videos/My-Game-Vid.m4v">
+          </video>
+          <h2 class="slide-right">HI, Welcome to<br><span>  Ancient Wars</span></br></h2>
+          
+          
+          <a href="#pictures" class="main-btn slide-down">See Pictures And Info</a>
+          <div class="social-icons slide-up">
+            <a href="https://www.tiktok.com/@devlopmaster"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/channel/UC8kRVqUE96SS5EmO8-_tFRg"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="info">
+        <h2 class="note slide-down">*Note : <span class="h3 slide-up">The Game Is Still In Development So All The Maps And Models Are Just A prototype (For Testing)</span>.*</h2>
+      </section>
+     
+      <section class="projects" id="pictures">
+          <h2 class="title slide-left">pictures</h2>
+        <div class="content">
+         
+            <div class="project-image hiddenb">
+              <img src="Images-and-videos/game-pic1.png"/>
+            </div>
+            <div class="project info">
+              <p class="project-category">-1-</p>
+          
+            </div>
+         
+          
+            <div class="project-image hiddenb">
+              <img src="Images-and-videos/game-pic-2.png"/>
+            </div>
+            <div class="project info">
+              <p class="project-category">-2-</p>
+            
+            </div>
+          
+          
+            <div class="project-image hiddenb">
+              <img src="Images-and-videos/game-pic-3.png">
+            </div>
+            <div class="project info">
+              <p class="project-category">-3-</p>
+             
+            </div>
+        </div>
+
+      </section>
+     
+      <section class="download" id="download-page">
+       <div>
+        <h2 class="note slide-up">*Note : <span class="h3">The Demo Was Removed For Some Technical Issues</span>.*</h2>
+
+       </div>
+        <div class="content">
+        <a style="text-decoration: none;">
+          <div class="contact-card hiddenb">
+            <div class="icon slide-up">
+              <i class="fa-solid fa-download"></i>
+            </div>
+            <div class="info slide-down">
+              <h3>Download</h3>
+              <p class="info-contact slide-left">Download Ancient Wars Game</p>
+              <p class="note slide-right" hre>Click To download</p>
+            </div>
+          </div>
+          
+        </a>
+          
+          
+        </div>
+        <div>
+          
+          <h2 class="title slide-down">recommended requirements : </h2>
+
+          <h3 class="requirements slide-left">OS : <span>Windows 10, Windows11</span></h3>
+          <h3 class="requirements slide-left">Processer : <span>Core intel i3, ryzen 3</span></h3>
+          <h3 class="requirements slide-left">Memory : <span>8 GB RAM</span></h3>
+          <h3 class="requirements slide-left">Graphics Card : <span>GTX 1650, RTX 2060</span></h3>
+          <h3 class="requirements slide-left">Storage : <span>Unknown</span></h3>
+        </div>
+        <div>
+          <h2 class="note slide-up">*Note : <span class="h3">You can play in low specs but with low settings and fps</span>.*</h2>
+        </div>
+        
+      </section>
+
+      <section class="contact-sec" id="contact"> 
+    
+    
+
+        <h2 class="title slide-down">Contact
+          
+        </h2>
+        <div class="content">
+            <a href="Contact Page.html" style="text-decoration: none;">
+              <div class="contact-card hiddenb">
+                
+                <div class="icon slide-up">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info slide-down">
+                  <h3>Email</h3>
+                  <p class="info-contact">developmaster.contact@gmail.com</p>
+                </div>
+              
+             
+              </div>
+            </a>
+             
+              
+        </div>
+        
+      </section>
+    <footer class="footer">
+    
+        <p>Copyrights <span>@DevelopMaster</span></p>
+        <div class="social-icons slide-up">
+          <a href="https://www.tiktok.com/@devlopmaster"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.youtube.com/channel/UC8kRVqUE96SS5EmO8-_tFRg"><i class="fa-brands fa-youtube"></i></a>
+          <a style="font-weight: 200; cursor: pointer; font-size: 1.1em; text-decoration: none;" href="Privacy page.html"> PRIVACY AND POLICY</a>
+          <a style="font-weight: 200; cursor: pointer; font-size: 1.1em; text-decoration: none;" href="Contact Page.html"> Contact us</a>
+        </div>
+      </footer>
+      <script src="javamain.js"></script>
+      <script src="animations.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-auth.js"></script>
+        
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+      <script>
+
+        // Initialize Firebase
+        var firebaseConfig = {
+          apiKey: "AIzaSyDjYppLG4hNfSV-jHluOyHADtlyhaijvOs",
+          authDomain: "signup-login-90211.firebaseapp.com",
+          projectId: "signup-login-90211",
+          storageBucket: "signup-login-90211.appspot.com",
+          messagingSenderId: "183494741824",
+          appId: "1:183494741824:web:2210d42663ab10f0d634a5",
+          measurementId: "G-EGW4LH3V3P"
+        };
+  
+        firebase.initializeApp(firebaseConfig);
+        // Wait for the page to load
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (!user) {
+            // Redirect to the login page if the user is not logged in
+            window.location.href = "index.html";
+          }
+        });
+  
+         
+       
+    </script>
+    
+      
+
+      
+</body>
+</html>

@@ -78,7 +78,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(Images-and-videos/WebBg.png);
+  background-image: url(Images-and-videos/WebBg.png);
   background-size: cover;
   background-position: center;
 
