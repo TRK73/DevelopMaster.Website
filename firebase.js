@@ -48,7 +48,7 @@ var firebaseConfig = {
         database.ref('users/' + user.uid).set({
           email: email
         });
-        window.location.href = "index.html";
+        window.location.href = "Login Page.html";
         // Show success message and clear form
         document.getElementById('register-error-message').style.display = "none";
         document.getElementById('register-success-message').style.display = "block";

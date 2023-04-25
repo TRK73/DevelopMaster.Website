@@ -1,281 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="Style.css">
-  <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
-  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
-  <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
-  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
-  <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
-  <link rel="stylesheet" type="text/css" href="stylescript2.css">
-  <script src="https://www.google.com/recaptcha/api.js?render=6LefOIolAAAAAP8Olu_sDW9uCHH4HACeeZblINEq"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7489999413558166"
-     crossorigin="anonymous"></script>
-  <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-  </script>
-  <title>Login Page</title>
-  <style>
-    body {
-      
-      background-color: transparent;
-    }
-    #login-form {
-      
-      background-color: transparent;
-      height: 700px;
-      padding: 60px;
-      margin: 50px auto;
-      width: 600px;
-      border-radius: 10px;
-      box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
-
-    }
-    #register-form {
-      background-color: transparent;
-      height: 700px;
-      padding: 60px;
-      margin: 50px auto;
-      width: 600px;
-      border-radius: 10px;
-      box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
-    
-
-    }
-
-    h2{
-      color: white;
-    }
-    input[type="text"], input[type="password"] {
-      padding: 10px;
-      width: 100%;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 20px;
-      box-sizing: border-box;
-      font-size: 16px;
-    }
-    input[type="submit"] {
-      background-color: #f43a3a;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-      transition: 0.7s ease;
-    }
-    input[type="submit"]:hover {
-      background-color: #8d0f0f;
-    }
-    .error {
-      color: #f43a3a;
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-
-    .switch-between {
-      padding-bottom: 30px;
-      display: flex;
-      justify-content: center;
-      color: white;
-    }
-
-    #show-register-link{
-      text-decoration: none;
-      color: #f43a3a;
-      transition: 0.5s ease;
-      padding-left: 20px;
-    }
-    #show-register-link:hover{
-      text-decoration: none;
-      color: #8d0f0f;
-    }
-    #show-login-link{
-      text-decoration: none;
-      color: #f43a3a;
-      transition: 0.5s ease;
-      padding-left: 20px;
-    }
-    #show-login-link:hover{
-      text-decoration: none;
-      color: #8d0f0f;
-    }
-
-    .link-to-reset{
-      text-decoration: none;
-      color: #f43a3a;
-      transition: 0.5s ease;
-      padding-left: 20px;
-    }
-    .link-to-reset:hover{
-      text-decoration: none;
-      color: #8d0f0f;
-    }
-
-    .note-register{
-      color: #f43a3a;
-      font-weight: 300;
-      font-size: 1.3em;
-      text-align: center;
-    }
-    .note-register span{
-      color: white;
-      font-weight: 300;
-      font-size: 0.9em;
-      text-align: center;
-    }
-    .form .button{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-
-    
-
-    @media (max-width:841px){
-      #login-form{
-        background-color: transparent;
-        border-color: transparent;
-        box-shadow: none;
-        width: 400px;
-      }
-      #register-form {
-        background-color: transparent;
-        border-color: transparent;
-        box-shadow: none;
-        width: 400px;
-
-      }
-    }
-    
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+    <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
+    <link rel="stylesheet" type="text/css" href="stylescript2.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LefOIolAAAAAP8Olu_sDW9uCHH4HACeeZblINEq"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7489999413558166"
+    crossorigin="anonymous"></script>
 </head>
 <body>
-  <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-4557488497148227">
-  </amp-auto-ads>
-  <div id="login-section">
-
-     
-    <form id="login-form" action="#" class="slide-up">
-      <h2 class="hiddenb">Login</h2>
-      <div id="login-error-message" class="error slide-down"></div>
-      <label for="login-email">Email</label>
-      <input type="text" id="login-email" name="email" placeholder="Enter Your Email here..." required>
-      <label for="login-password">Password</label>
-      <input type="password" id="login-password" name="password" placeholder="Enter Your Password here..." required>
-      <p class="switch-between">Forgot your password? <a href="reset-password.html" class="link-to-reset">Reset Password</a></p>
-      <input type="submit" value="Login">
-      <div class = "Google-signin"id="firebaseui-auth-container"></div>
-
-    </form>
+    <section class="main">
+        <div>
+            <h2 class="hidden"> Welcome To<br><span>My Website <i class="fa-solid fa-globe"></i></span></br></h2>
       
-    
-
-    <p class="switch-between slide-left">Don't have an account? <a href="#" id="show-register-link">Sign up here</a></p>
-  </div>
-  <div id="register-section" style="display: none;">
-    <form id="register-form" action="#" class="slide-down">
-      <h2 class="hiddenb">Register</h2>
-      <div id="register-error-message" class="error slide-down"></div>
-      <label for="register-email">Email</label>
-      <input type="text" id="register-email" name="email" placeholder="Enter Your New Account Email here..."  required>
-      <label for="register-password">Password</label>
-      <input type="password" id="register-password" name="password"placeholder="Enter Your New Account Password here..." required>
-      <input type="submit" value="Register">
       
-     
-
-     
-      <h2 class="note-register slide-down">*Important :<span> put a valid email because the games or products you want to get from here there links will be sent to your email</span>.*</h2><br><br>
-    </form>
-   
-    <p class="switch-between slide-up">Already have an account? <a href="#" id="show-login-link">Sign in here</a></p>
-  </div>
-  <footer class="footer">
-    
-    <p class=" slide-left">Copyrights <span>@DevelopMaster</span></p>
-    <div class="social-icons  slide-left">
-    <a href="https://www.tiktok.com/@devlopmaster"><i class="fa-brands fa-tiktok"></i></a>
-    <a href="https://www.youtube.com/channel/UC8kRVqUE96SS5EmO8-_tFRg"><i class="fa-brands fa-youtube"></i></a>
-    <a style="font-weight: 200; cursor: pointer; font-size: 1.1em; text-decoration: none;" href="Privacy page.html"> PRIVACY AND POLICY</a>
-    <a style="font-weight: 200; cursor: pointer; font-size: 1.1em; text-decoration: none;" href="Contact Page.html"> Contact us</a>
-    </div>
-  </footer>
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
-  <script src="firebase.js"></script>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-  <script src="index.js"></script>
-  <script src="animations.js"></script>
-  <script>
-   
+      
+      
+            <h3 class="slide-left">You Can See All My Work Here, You Have To Login or Signup</h3>
+            <a href="Login Page.html" class="main-btn slide-right">Login or Signup</a>
+           
+        </div>
+    </section>
   
+
    
-    // Create a FirebaseUI instance
-    var ui = new firebaseui.auth.AuthUI(firebase.auth());
-    // Set up Microsoft Azure AD as a sign-in option
-    var microsoftProvider = new firebase.auth.OAuthProvider('microsoft.com');
-    microsoftProvider.setCustomParameters({
-      // Replace with your Azure AD client ID
-      client_id: '2bfe74d7-6795-4ab3-acd1-c3b46ae20b83',
-      // Specify the required scopes
-      scope: '',
-    });
-
-    // Configure the FirebaseUI sign-in options
-    var uiConfig = {
-      signInOptions: [
-        firebase.auth.GoogleAuthProvider.PROVIDER_ID, // Add the Google provider
-        // Add other providers as needed
-        firebase.auth.GithubAuthProvider.PROVIDER_ID,
-        firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-        //microsoftProvider.providerId, // Add Microsoft as a provider
-        
-      ],
-      signInFlow: 'popup', // Use the pop-up sign-in flow
-      signInSuccessUrl: 'profile.html', // Redirect to this URL after successful sign-in
-      // Additional configuration options as needed
-    };
-
-    ui.start('#firebaseui-auth-container', uiConfig);
-
-    // Detect when user is signed in
-    firebase.auth().onAuthStateChanged(function(user) {
-      if (user) {
-        // User is signed in, redirect to example.html
-        window.location.href = 'profile.html';
-      }
-    });
-    // Start the Firebase UI sign-in widget
-
-    
-  </script>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '1947226525629754',
-        xfbml      : true,
-        version    : 'v16.0'
-      });
-      FB.AppEvents.logPageView();
-    };
-  
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-  </script>
-  
+    <script src="animations.js"></script>
 </body>
 </html>

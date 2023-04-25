@@ -51,7 +51,7 @@ registerForm.addEventListener('submit', function(event) {
       .then(() => {
           registerErrorMessage.style.display = 'none';
           registerForm.reset();
-          window.location.href = 'index.html';
+          window.location.href = 'Login Page.html';
       })
       .catch(error => {
           registerErrorMessage.style.display = 'block';
