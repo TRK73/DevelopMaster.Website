@@ -234,7 +234,7 @@ section{
 .footer {
 
   color: white;
-  background: url(Images-and-videos/WebBg4.png);
+  background-color: transparent;
   background-size: 400px;
   background-position-y: 9000px;
   padding: 2em;
