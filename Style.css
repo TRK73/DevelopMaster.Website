@@ -808,7 +808,7 @@ section{
     .footer{
       background-position-y: -180px;
       width: 100%;
-      width: 639px;
+      width: auto;
     }
   }
 
