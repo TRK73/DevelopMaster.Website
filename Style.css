@@ -547,7 +547,7 @@ section{
 
 .note{
   color: #f43a3a;
-  justify-content: center;
+  text-align: center;
   letter-spacing: 2.5px;
   padding-top: 50px;
   font-weight: 400;
@@ -555,7 +555,7 @@ section{
 
 .note span{
   color: #fff;
-  justify-content: center;
+  text-align: center;
   letter-spacing: 2.5px;
   font-weight: 400;
 
@@ -807,6 +807,8 @@ section{
     
     .footer{
       background-position-y: -180px;
+      width: 100%;
+      width: 639px;
     }
   }
 
