@@ -96,51 +96,43 @@
 
 
     <script>
-        // Function to send a message to the Flask server
+    // Function to send a message to the Flask server
     function sendMessage() {
-    var messageInput = document.getElementById("message-input");
-    var message = messageInput.value;
+      var messageInput = document.getElementById("message-input");
+      var message = messageInput.value;
 
-    // Create a new XMLHttpRequest object
-    var xhr = new XMLHttpRequest();
+      // Create a new XMLHttpRequest object
+      var xhr = new XMLHttpRequest();
 
-    // Set up the request
-    
-    xhr.setRequestHeader("Content-Type", "application/json");
+      // Set up the request
+      xhr.open("POST", "https://github.com/TRK73/developmaster.website.github.com/AI.py/chat", true);
+      xhr.setRequestHeader("Content-Type", "application/json");
 
-    // Define the callback function
-    xhr.onreadystatechange = function () {
+      // Define the callback function
+      xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE) {
-        if (xhr.status === 200) {
+          if (xhr.status === 200) {
             var response = JSON.parse(xhr.responseText);
-            displayMessage("You: " + message, true); // Display user's input in blue
-            displayMessage("AI: " + response.reply, false); // Display AI's response in red
-        } else {
-            displayMessage("Error: " + xhr.status, false);
+            displayMessage(response.reply);
+          } else {
+            displayMessage("Error: " + xhr.status);
+          }
         }
-        }
-    };
+      };
 
-    // Send the request
-    xhr.send(JSON.stringify({ "message": message }));
+      // Send the request
+      xhr.send(JSON.stringify({ "message": message }));
 
-    // Clear the input field
-    messageInput.value = "";
+      // Clear the input field
+      messageInput.value = "";
     }
 
     // Function to display a message in the chat window
-    function displayMessage(message, isUserMessage) {
-    var chatMessages = document.getElementById("chat-messages");
-    var messageElement = document.createElement("p");
-    messageElement.textContent = message;
-
-    if (isUserMessage) {
-        messageElement.style.color = "white";
-    } else {
-        messageElement.style.color = "red";
-    }
-
-    chatMessages.appendChild(messageElement);
+    function displayMessage(message) {
+      var chatMessages = document.getElementById("chat-messages");
+      var messageElement = document.createElement("p");
+      messageElement.textContent = message;
+      chatMessages.appendChild(messageElement);
     }
 
     // Add event listener to the send button
@@ -150,11 +142,12 @@
     // Add event listener to the input field to handle pressing Enter key
     var messageInput = document.getElementById("message-input");
     messageInput.addEventListener("keyup", function (event) {
-    if (event.keyCode === 13) {
+      if (event.keyCode === 13) {
         event.preventDefault();
         sendMessage();
-    }
+      }
     });
+
 
     </script>
 </body>
