@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Chatbot</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+    <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
+    <link rel="stylesheet" type="text/css" href="stylescript2.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LefOIolAAAAAP8Olu_sDW9uCHH4HACeeZblINEq"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7489999413558166"
+       crossorigin="anonymous"></script>
+
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            color: white;
+        }
+
+        h1{
+            color: white;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        #chat-messages{
+            border: 2px;
+            
+            
+            background-color: red;
+            color: white;
+            background-color: transparent;
+            width: 100%;
+            box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
+            border-radius: 10px;
+            padding: 25px;
+            padding-bottom: 300px;
+            margin: 15px;
+            transition: 0.7s ease;
+        }
+        .chat-sec{
+            width: 100%;
+            min-height: 100vh;
+            
+            align-items: center;
+            background-image: url(Images-and-videos/WebBg.png);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        @media (max-width:641px){
+
+            .chat-sec {
+                width: 100%;
+                min-height: 100vh;
+                
+                align-items: center;
+                background-image: url(Images-and-videos/WebBg1.png);
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="chat-sec">
+        <h1>AI Chatbot</h1>
+        <h4 style="text-align: center;">NOTE : This AI is very limited (Can do simple math by typing - calculate - at the first then type the expression and chat with you only) and it can't answer every </h4>
+        <div id="chat-messages" ></div>
+        <input type="text" id="message-input" class="search" placeholder="Enter your message">
+        <button id="send-button">Send</button>
+    </section>
+    
+
+
+    <script src="javamain.js"></script>
+    <script src="animations.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-auth.js"></script>
+      
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+
+    <script>
+        // Function to send a message to the Flask server
+    function sendMessage() {
+    var messageInput = document.getElementById("message-input");
+    var message = messageInput.value;
+
+    // Create a new XMLHttpRequest object
+    var xhr = new XMLHttpRequest();
+
+    // Set up the request
+    
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    // Define the callback function
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+        if (xhr.status === 200) {
+            var response = JSON.parse(xhr.responseText);
+            displayMessage("You: " + message, true); // Display user's input in blue
+            displayMessage("AI: " + response.reply, false); // Display AI's response in red
+        } else {
+            displayMessage("Error: " + xhr.status, false);
+        }
+        }
+    };
+
+    // Send the request
+    xhr.send(JSON.stringify({ "message": message }));
+
+    // Clear the input field
+    messageInput.value = "";
+    }
+
+    // Function to display a message in the chat window
+    function displayMessage(message, isUserMessage) {
+    var chatMessages = document.getElementById("chat-messages");
+    var messageElement = document.createElement("p");
+    messageElement.textContent = message;
+
+    if (isUserMessage) {
+        messageElement.style.color = "white";
+    } else {
+        messageElement.style.color = "red";
+    }
+
+    chatMessages.appendChild(messageElement);
+    }
+
+    // Add event listener to the send button
+    var sendButton = document.getElementById("send-button");
+    sendButton.addEventListener("click", sendMessage);
+
+    // Add event listener to the input field to handle pressing Enter key
+    var messageInput = document.getElementById("message-input");
+    messageInput.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        sendMessage();
+    }
+    });
+
+    </script>
+</body>
+</html>
