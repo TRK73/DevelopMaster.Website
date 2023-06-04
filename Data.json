@@ -1,1 +1,687 @@
+[
+    {
+      "question": "How do I change my password?",
+      "answer": "To change your password, go to your account settings, look for the password or security section, and follow the prompts to create a new password."
+    },
+    {
+      "question": "Who is the author of Harry Potter?",
+      "answer": "J.K. Rowling is the author of the Harry Potter series."
+    },
+    {
+      "question": "How do I install a software program?",
+      "answer": "To install a software program, download the installation file from a trusted source, double-click on the file, and follow the on-screen instructions to complete the installation."
+    },
+    {
+      "question": "What is the capital of the United States?",
+      "answer": "The capital of the United States is Washington, D.C."
+    },
+    {
+      "question": "How do I reset my phone to factory settings?",
+      "answer": "The process for resetting a phone to factory settings can vary depending on the make and model of the phone. Generally, you can go to the settings menu, look for the 'Backup and Reset' or 'Reset' option, and choose the 'Factory Data Reset' or similar option to initiate the reset."
+    },
+    {
+      "question": "Who is the author of To Kill a Mockingbird?",
+      "answer": "Harper Lee is the author of To Kill a Mockingbird."
+    },
+    {
+      "question": "How do I take a screenshot on a computer?",
+      "answer": "To take a screenshot on a computer, you can press the 'Print Screen' or 'PrtScn' key on your keyboard to capture the entire screen, or use the 'Alt + Print Screen' key combination to capture only the active window. The screenshot can then be pasted into an image editing software or document."
+    },
+    {
+      "question": "What is the largest country in the world?",
+      "answer": "Russia is the largest country in the world."
+    },
+    {
+      "question": "How do I create a new email account?",
+      "answer": "To create a new email account, go to the website or app of an email service provider (such as Gmail, Outlook, or Yahoo), click on the 'Sign Up' or 'Create Account' button, and follow the prompts to enter your personal information, choose an email address and password, and set up your account."
+    },
+    {
+      "question": "Who is the author of The Great Gatsby?",
+      "answer": "F. Scott Fitzgerald is the author of The Great Gatsby."
+    },
+    {
+      "question": "How do I change the language settings on my phone?",
+      "answer": "The process for changing the language settings on a phone can vary depending on the operating system and device you are using. Generally, you can go to the settings menu, look for the 'Language' or 'Language & Input' section, and choose your desired language from the available options."
+    },
+    {
+      "question": "What is the largest animal on Earth?",
+      "answer": "The blue whale is the largest animal on Earth."
+    },
+    {
+      "question": "How do I format a hard drive?",
+      "answer": "Formatting a hard drive erases all data on the drive and prepares it for use. To format a hard drive, you can use disk management tools or disk utility software that is specific to your operating system. Be cautious when formatting a hard drive as it will delete all data permanently."
+    },
+    {
+      "question": "Who is the author of Pride and Prejudice?",
+      "answer": "Jane Austen is the author of Pride and Prejudice."
+    },
+    {
+      "question": "How do I change the Wi-Fi password?",
+      "answer": "To change the Wi-Fi password, you need to access your router's settings. Open a web browser, enter your router's IP address (e.g., 192.168.1.1) in the address bar, log in to the router's administration interface using the username and password, and look for the wireless settings or security section to change the password."
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "answer": "The currency of Japan is the Japanese yen."
+    },
+    {
+      "question": "How do I delete my social media account?",
+      "answer": "To delete your social media account, go to the account settings or privacy settings, look for the 'Delete Account' or 'Deactivate Account' option, and follow the provided instructions. Keep in mind that deleting your account is often permanent and may result in the loss of your data."
+    },
+    {
+      "question": "Who is the author of 1984?",
+      "answer": "George Orwell is the author of 1984."
+    },
+    {
+      "question": "How do I change the battery in a car?",
+      "answer": "Changing the battery in a car involves locating the battery, disconnecting the negative (-) and positive (+) terminals, removing any fasteners or clamps, lifting out the old battery, placing the new battery in the same position, and reconnecting the terminals. It is recommended to consult the car's manual or seek professional assistance if you are unsure."
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "answer": "Mount Everest is the tallest mountain in the world."
+    },
+    {
+      "question": "How do I download a video from YouTube?",
+      "answer": "Downloading videos from YouTube is against YouTube's terms of service. However, there are third-party websites and browser extensions available that allow you to download YouTube videos. Keep in mind that downloading copyrighted content may infringe upon the rights of the content creator."
+    },
+    {
+      "question": "Who is the author of The Catcher in the Rye?",
+      "answer": "J.D. Salinger is the author of The Catcher in the Rye."
+    },
+    {
+      "question": "How do I change my privacy settings on social media?",
+      "answer": "To change your privacy settings on social media, go to your account settings or privacy settings, and look for options related to privacy and security. You can customize who can see your posts, view your profile, send you friend requests, and access your personal information."
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "answer": "The capital of Australia is Canberra."
+    },
+    {
+      "question": "How do I transfer files between devices?",
+      "answer": "There are several methods to transfer files between devices, such as using a USB cable, transferring over a local network, using cloud storage services, or utilizing Bluetooth or NFC (Near Field Communication) for wireless transfers. The specific method depends on the devices and the type of files you want to transfer."
+    },
+    {
+      "question": "Who is the author of The Lord of the Rings trilogy?",
+      "answer": "J.R.R. Tolkien is the author of The Lord of the Rings trilogy."
+    },
+    {
+      "question": "How do I make a resume?",
+      "answer": "To make a resume, start by choosing a format and organizing the sections (such as contact information, professional summary, work experience, education, skills). Tailor the content to highlight your relevant qualifications, accomplishments, and experiences. Proofread your resume and save it as a PDF or Word document for sharing or printing."
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "answer": "The largest desert in the world is the Antarctic Desert."
+    },
+    {
+      "question": "How do I change my profile picture on social media?",
+      "answer": "To change your profile picture on social media, go to your profile or account settings, look for the option to edit your profile or picture, and choose a new image from your device or from the provided options. Crop or adjust the picture as desired, and save the changes."
+    },
+    {
+      "question": "Who is the author of The Odyssey?",
+      "answer": "Homer is believed to be the author of The Odyssey."
+    },
+    {
+      "question": "How do I change my email password?",
+      "answer": "To change your email password, go to your email provider's website or access your email settings within your email client. Look for the account settings or security settings, and choose the option to change your password. Follow the provided instructions to create a new password."
+    },
+    {
+      "question": "What is the national bird of India?",
+      "answer": "The national bird of India is the Indian peacock."
+    },
+    {
+      "question": "How do I create a strong password?",
+      "answer": "To create a strong password, use a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information (such as your name or birthdate) and common passwords. Make sure your password is at least 8-12 characters long and unique for each of your accounts."
+    },
+    {
+      "question": "Who is the author of The Da Vinci Code?",
+      "answer": "Dan Brown is the author of The Da Vinci Code."
+    },
+    {
+      "question": "How do I check my internet speed?",
+      "answer": "To check your internet speed, you can use online speed test tools available from various providers. Visit a speed test website, click on the 'Start' or 'Go' button, and the tool will measure your download and upload speeds, as well as latency or ping."
+    },
+    {
+      "question": "What is the largest river in the world?",
+      "answer": "The Amazon River is the largest river in the world by discharge volume."
+    },
+    {
+      "question": "How do I change the default search engine in my browser?",
+      "answer": "To change the default search engine in your browser, go to the browser settings, look for the search engine or search settings, and choose your preferred search engine from the available options. You may need to add an extension or plug-in for certain search engines."
+    },
+    {
+      "question": "Who is the author of Moby-Dick?",
+      "answer": "Herman Melville is the author of Moby-Dick."
+    },
+    {
+      "question": "How do I create a password-protected folder?",
+      "answer": "To create a password-protected folder, you can use third-party software or encryption tools that allow you to create an encrypted container or folder. These tools typically require you to set up a password and store your files within the encrypted folder for protection."
+    },
+    {
+      "question": "What is the capital of China?",
+      "answer": "The capital of China is Beijing."
+    },
+    {
+      "question": "How do I change the ringtone on my phone?",
+      "answer": "The process for changing the ringtone on your phone can vary depending on the operating system and device you are using. Generally, you can go to the sound or ringtone settings, select the 'Phone ringtone' or similar option, and choose a new ringtone from the available options or from your device's storage."
+    },
+    {
+      "question": "Who is the author of The Adventures of Huckleberry Finn?",
+      "answer": "Mark Twain (Samuel Clemens) is the author of The Adventures of Huckleberry Finn."
+    },
+    {
+      "question": "How do I change the time on my watch?",
+      "answer": "The process for changing the time on your watch depends on the type of watch you have. Generally, you can pull out the crown (the small button on the side of the watch) to a specific position, rotate it to set the correct time, and then push the crown back in to secure the settings. Refer to your watch's user manual for specific instructions."
+    },
+    {
+      "question": "What is the largest continent?",
+      "answer": "Asia is the largest continent in terms of land area and population."
+    },
+    {
+      "question": "How do I clear my browser cache?",
+      "answer": "To clear your browser cache, go to the browser settings or options menu, look for the 'Clear browsing data' or 'Clear cache' option, and select it. Choose the time range or specific data you want to clear (such as cached images and files), and confirm the action to delete the cache."
+    },
+    {
+      "question": "Who is the author of The Hobbit?",
+      "answer": "J.R.R. Tolkien is the author of The Hobbit."
+    },
+    {
+      "question": "How do I check my email on a computer?",
+      "answer": "To check your email on a computer, open a web browser and go to your email provider's website. Enter your email address and password, and click on the 'Sign In' or 'Log In' button. Once logged in, you will be able to access and manage your email messages."
+    },
+    {
+      "question": "What is the national flower of France?",
+      "answer": "The national flower of France is the fleur-de-lis (iris)."
+    },
+    {
+      "question": "How do I change the language on a computer?",
+      "answer": "The process for changing the language on a computer depends on the operating system you are using. Generally, you can go to the settings or control panel, look for the 'Language' or 'Region' section, and choose your desired language from the available options. The system may require a restart for the changes to take effect."
+    },
+    {
+      "question": "Who is the author of Romeo and Juliet?",
+      "answer": "William Shakespeare is the author of Romeo and Juliet."
+    },
+    {
+      "question": "How do I clear my browsing history?",
+      "answer": "To clear your browsing history, go to the browser settings or options menu, look for the 'Clear browsing data' or 'Clear history' option, and select it. Choose the time range or specific data you want to clear (such as browsing history, cookies, and cached files), and confirm the action to delete the history."
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "answer": "The capital of Brazil is Brasília."
+    },
+    {
+      "question": "How do I take a screenshot on a phone?",
+      "answer": "The process for taking a screenshot on a phone can vary depending on the operating system and device you are using. Generally, you can press a combination of physical buttons (such as the power button and volume down button) simultaneously to capture a screenshot. Some phones also offer the option to take a screenshot through gestures or the notification panel."
+    },
+    {
+      "question": "Who is the author of The Chronicles of Narnia?",
+      "answer": "C.S. Lewis is the author of The Chronicles of Narnia."
+    },
+    {
+      "question": "How do I create a new folder on a computer?",
+      "answer": "To create a new folder on a computer, navigate to the location (such as the desktop or a file explorer window) where you want to create the folder. Right-click on an empty space, choose the 'New' or 'Create' option, and select 'Folder' from the context menu. You can then rename the folder to your desired name."
+    },
+    {
+      "question": "What is the national animal of Canada?",
+      "answer": "The national animal of Canada is the beaver."
+    },
+    {
+      "question": "How do I update my operating system?",
+      "answer": "The process for updating your operating system depends on the specific system you are using. Generally, you can go to the settings or control panel, look for the 'Update & Security' or 'System Updates' section, and choose the option to check for updates. If updates are available, follow the prompts to download and install them."
+    },
+    {
+      "question": "Who is the author of The Iliad?",
+      "answer": "Homer is believed to be the author of The Iliad."
+    },
+    {
+      "question": "How do I create a playlist on a music streaming service?",
+      "answer": "The process for creating a playlist on a music streaming service depends on the specific platform you are using. Generally, you can navigate to the 'Playlist' or 'Create New Playlist' section, click on the 'Add' or 'Plus' button to add songs from the available library or search for specific songs, and save the playlist with a name of your choice."
+    },
+    {
+      "question": "What is the currency of France?",
+      "answer": "The currency of France is the euro (€)."
+    },
+    {
+      "question": "How do I delete cookies from my browser?",
+      "answer": "To delete cookies from your browser, go to the browser settings or options menu, look for the 'Clear browsing data' or 'Clear cookies' option, and select it. Choose the time range or specific data you want to clear (such as cookies and cached files), and confirm the action to delete the cookies."
+    },
+    {
+      "question": "Who is the author of The Picture of Dorian Gray?",
+      "answer": "Oscar Wilde is the author of The Picture of Dorian Gray."
+    },
+    {
+      "question": "How do I create a new document in a word processing software?",
+      "answer": "To create a new document in a word processing software, open the software and look for the 'New Document' or 'Create' option. Alternatively, you can use the keyboard shortcut Ctrl+N (Windows) or Command+N (Mac) to create a new document. You can then start typing or formatting your content within the document."
+    },
+    {
+      "question": "What is the national animal of Australia?",
+      "answer": "The national animal of Australia is the red kangaroo."
+    },
+    {
+      "question": "How do I update my antivirus software?",
+      "answer": "To update your antivirus software, open the antivirus program on your computer, look for the 'Update' or 'Check for updates' option, and select it. The software will then connect to the internet and download the latest virus definition updates to keep your computer protected."
+    },
+    {
+      "question": "Who is the author of To Kill a Mockingbird?",
+      "answer": "Harper Lee is the author of To Kill a Mockingbird."
+    },
+    {
+      "question": "How do I create a budget?",
+      "answer": "To create a budget, start by listing your sources of income and then categorize your expenses, such as housing, transportation, food, utilities, and entertainment. Determine your financial goals and allocate funds accordingly. Track your expenses and adjust your budget as needed to ensure your income covers your expenses and savings."
+    },
+    {
+      "question": "What is the largest ocean in the world?",
+      "answer": "The Pacific Ocean is the largest ocean in the world."
+    },
+    {
+      "question": "How do I delete a file on a computer?",
+      "answer": "To delete a file on a computer, navigate to the location where the file is stored, right-click on the file, and choose the 'Delete' or 'Move to Trash' option from the context menu. Alternatively, you can select the file and press the Delete key on your keyboard. Keep in mind that deleted files may be permanently removed from the system."
+    },
+    {
+      "question": "Who is the author of The Great Gatsby?",
+      "answer": "F. Scott Fitzgerald is the author of The Great Gatsby."
+    },
+    {
+      "question": "How do I unsubscribe from email newsletters?",
+      "answer": "To unsubscribe from email newsletters, scroll to the bottom of the newsletter email and look for the 'Unsubscribe' or 'Manage Subscriptions' link. Click on the link, and it will usually direct you to a page where you can confirm your unsubscribe request. Alternatively, you can mark the email as spam to stop receiving future emails from that sender."
+    },
+    {
+      "question": "What is the national sport of Canada?",
+      "answer": "The national sport of Canada is lacrosse (summer) and ice hockey (winter)."
+    },
+    {
+      "question": "How do I change the font size in a word processing software?",
+      "answer": "To change the font size in a word processing software, select the text you want to modify or place the cursor at the desired location. Look for the font size option in the toolbar or formatting menu, and choose a new font size from the available options. You can usually specify the size in points (e.g., 12pt, 14pt) or choose from pre-defined sizes."
+    },
+    {
+      "question": "Who is the author of War and Peace?",
+      "answer": "Leo Tolstoy is the author of War and Peace."
+    },
+    {
+      "question": "How do I create a new email account?",
+      "answer": "To create a new email account, choose an email provider (such as Gmail, Outlook, or Yahoo), visit their website, and look for the 'Sign Up' or 'Create Account' option. Provide the required information, including your desired email address, password, and personal details. Follow the prompts to set up your new email account."
+    },
+    {
+      "question": "What is the capital of India?",
+      "answer": "The capital of India is New Delhi."
+    },
+    {
+      "question": "How do I create a strong password?",
+      "answer": "To create a strong password, use a combination of uppercase and lowercase letters, numbers, and special characters. Avoid using easily guessable information (such as your name or birthdate) and common passwords. Make sure your password is at least 8-12 characters long and unique for each of your accounts."
+    },
+    {
+      "question": "Who is the author of The Catcher in the Rye?",
+      "answer": "J.D. Salinger is the author of The Catcher in the Rye."
+    },
+    {
+      "question": "How do I connect to a Wi-Fi network?",
+      "answer": "To connect to a Wi-Fi network, go to the settings or network preferences on your device. Look for the Wi-Fi option and toggle it on if it is off. A list of available Wi-Fi networks should appear. Select the network you want to connect to and enter the password if prompted. Once connected, your device will have internet access through the Wi-Fi network."
+    },
+    {
+      "question": "What is the national flower of Japan?",
+      "answer": "The national flower of Japan is the cherry blossom (sakura)."
+    },
+    {
+      "question": "How do I format a USB drive?",
+      "answer": "To format a USB drive, plug it into your computer's USB port. Open a file explorer window, locate the USB drive, right-click on it, and choose the 'Format' or 'Format Disk' option. Select the desired file system (such as FAT32 or NTFS) and choose the formatting options. Click 'Start' or 'Format' to begin the formatting process. Keep in mind that formatting erases all data on the USB drive, so make sure to backup any important files."
+    },
+    {
+      "question": "Who is the author of Pride and Prejudice?",
+      "answer": "Jane Austen is the author of Pride and Prejudice."
+    },
+    {
+      "question": "How do I back up my files and data?",
+      "answer": "To back up your files and data, you can use various methods. One option is to manually copy your important files to an external storage device, such as a USB drive or an external hard drive. Alternatively, you can use cloud storage services, such as Google Drive, Dropbox, or iCloud, to automatically back up your files and data over the internet. Additionally, you can use backup software that offers scheduled backups and incremental backups for more comprehensive data protection."
+    },
+    {
+      "question": "What is the capital of Russia?",
+      "answer": "The capital of Russia is Moscow."
+    },
+    {
+      "question": "How do I change the default web browser on my computer?",
+      "answer": "To change the default web browser on your computer, go to the settings or control panel, look for the 'Default Apps' or 'Default Programs' section, and choose the option to set your default web browser. From the available options, select your desired web browser as the default. The process may vary slightly depending on the operating system you are using."
+    },
+    {
+      "question": "Who is the author of 1984?",
+      "answer": "George Orwell is the author of 1984."
+    },
+    {
+      "question": "How do I take a screenshot on a computer?",
+      "answer": "The process for taking a screenshot on a computer depends on the operating system you are using. On Windows, you can press the PrtScn (Print Screen) key on your keyboard to capture the entire screen or use the Snipping Tool or Snip & Sketch application to capture a specific area. On Mac, you can press Shift + Command + 3 to capture the entire screen or Shift + Command + 4 to select a specific area. The screenshots are usually saved on the desktop or in a designated folder."
+    },
+    {
+      "question": "What is the national animal of the United States?",
+      "answer": "The national animal of the United States is the bald eagle."
+    },
+    {
+      "question": "How do I change my profile picture on a social media platform?",
+      "answer": "The process for changing your profile picture on a social media platform depends on the specific platform you are using. Generally, you can go to your profile settings or account settings, look for the 'Profile Picture' or 'Avatar' section, and choose the option to upload a new image. You can either select a photo from your device's storage or take a new photo using your device's camera."
+    },
+    {
+      "question": "Who is the author of The Lord of the Rings?",
+      "answer": "J.R.R. Tolkien is the author of The Lord of the Rings."
+    },
+    {
+      "question": "How do I delete an app from my phone?",
+      "answer": "The process for deleting an app from your phone depends on the operating system you are using. On most smartphones, you can long-press the app icon on the home screen or app drawer until a menu appears. From the menu, choose the option to uninstall, remove, or delete the app. Alternatively, you can go to the app settings in your device's settings menu and uninstall the app from there."
+    },
+    {
+      "question": "What is the national anthem of the United Kingdom?",
+      "answer": "The national anthem of the United Kingdom is 'God Save the Queen.'"
+    },
+    {
+      "question": "How do I change my password on a website or online service?",
+      "answer": "To change your password on a website or online service, log in to your account and go to the account settings or profile settings. Look for the 'Security,' 'Privacy,' or 'Password' section, and choose the option to change your password. You may be prompted to enter your current password and then provide a new password. Follow the instructions and save your new password."
+    },
+    {
+      "question": "Who is the author of The Da Vinci Code?",
+      "answer": "Dan Brown is the author of The Da Vinci Code."
+    },
+    {
+      "question": "How do I print a document from a computer?",
+      "answer": "To print a document from a computer, open the document in a word processing software or any program that supports printing. Go to the File menu, choose the 'Print' option, or use the keyboard shortcut Ctrl+P (Windows) or Command+P (Mac). In the print dialog box, select your printer and specify any desired print settings, such as the number of copies or page range. Finally, click 'Print' to start the printing process."
+    },
+    {
+      "question": "What is the national bird of the United States?",
+      "answer": "The national bird of the United States is the bald eagle."
+    },
+    {
+      "question": "How do I block a contact on my phone?",
+      "answer": "The process for blocking a contact on your phone depends on the operating system and device you are using. Generally, you can go to the contact list or phone settings, locate the contact you want to block, and choose the option to block or blacklist the contact. This prevents them from calling, messaging, or contacting you through other communication channels. Some phones also allow you to block contacts directly from the call or message log."
+    },
+    {
+      "question": "Who is the author of Moby-Dick?",
+      "answer": "Herman Melville is the author of Moby-Dick."
+    },
+    {
+      "question": "How do I change the display brightness on a computer?",
+      "answer": "To change the display brightness on a computer, look for the brightness controls on your keyboard. On most laptops, you can use the function (Fn) key in combination with the brightness adjustment keys (usually represented by sun icons) to increase or decrease the brightness. Alternatively, you can go to the display settings in the control panel or system preferences and adjust the brightness slider there."
+    },
+    {
+      "question": "What is the national sport of India?",
+      "answer": "The national sport of India is field hockey."
+    },
+    {
+      "question": "How do I clear my browser history?",
+      "answer": "To clear your browser history, open your browser and go to the settings or options menu. Look for the 'History,' 'Privacy,' or 'Browsing Data' section, and choose the option to clear your browsing history. You may be able to specify the time range or types of data you want to clear, such as browsing history, cookies, cache, or saved passwords. Confirm the action, and your browsing history will be deleted."
+    },
+    {
+      "question": "Who is the author of The Hobbit?",
+      "answer": "J.R.R. Tolkien is the author of The Hobbit."
+    },
+    {
+      "question": "How do I set an alarm on my phone?",
+      "answer": "The process for setting an alarm on your phone depends on the operating system and device you are using. Generally, you can open the Clock or Alarms app, choose the option to create a new alarm, and set the desired time, sound, and other alarm settings. Alternatively, you can use voice commands or virtual assistants to set alarms by saying commands like 'Set an alarm for 7 AM tomorrow.'"
+    },
+    {
+      "question": "What is the national flower of India?",
+      "answer": "The national flower of India is the lotus."
+    },
+    {
+      "question": "How do I empty the trash or recycle bin on a computer?",
+      "answer": "To empty the trash or recycle bin on a computer, locate the trash or recycle bin icon on your desktop or file explorer window. Right-click on the icon and choose the 'Empty Trash,' 'Empty Recycle Bin,' or similar option from the context menu. Confirm the action if prompted, and the contents of the trash or recycle bin will be permanently deleted."
+    },
+    {
+      "question": "Who is the author of The Hunger Games?",
+      "answer": "Suzanne Collins is the author of The Hunger Games."
+    },
+    {
+      "question": "How do I check my email on a webmail service?",
+      "answer": "To check your email on a webmail service, open your web browser and visit the website of the email provider (such as Gmail, Outlook, or Yahoo). Sign in to your email account using your username and password. Once logged in, you will see your inbox, where you can view and manage your email messages, compose new messages, and access other email-related features."
+    },
+    {
+      "question": "What is the national sport of Australia?",
+      "answer": "The national sport of Australia is Australian rules football."
+    },
+    {
+      "question": "How do I change the language settings on my phone?",
+      "answer": "The process for changing the language settings on your phone depends on the operating system and device you are using. Generally, you can go to the settings or system preferences, look for the 'Language' or 'Language & Region' section, and choose the option to change the language. From the available languages, select your desired language, and your phone's interface will be updated accordingly."
+    },
+    {
+      "question": "Who is the author of The Chronicles of Narnia?",
+      "answer": "C.S. Lewis is the author of The Chronicles of Narnia."
+    },
+    {
+      "question": "How do I clear cookies from my web browser?",
+      "answer": "To clear cookies from your web browser, open the browser's settings or options menu. Look for the 'Privacy,' 'Security,' or 'Cookies' section, and choose the option to clear or delete cookies. You may be able to specify the time range or types of data you want to clear. Confirm the action, and the cookies stored in your browser will be removed."
+    },
+    {
+      "question": "What is the national animal of Australia?",
+      "answer": "The national animal of Australia is the kangaroo."
+    },
+    {
+      "question": "How do I create a new folder on a computer?",
+      "answer": "To create a new folder on a computer, open a file explorer window and navigate to the location where you want to create the folder. Right-click on an empty area or use the 'New Folder' button in the toolbar, and choose the option to create a new folder. Give the folder a name, and it will be created in the selected location."
+    },
+    {
+      "question": "Who is the author of The Harry Potter series?",
+      "answer": "J.K. Rowling is the author of The Harry Potter series."
+    },
+    {
+      "question": "How do I take a screenshot on a smartphone?",
+      "answer": "The process for taking a screenshot on a smartphone depends on the operating system and device you are using. Generally, you can press a combination of buttons, such as the power button and volume down button simultaneously, to capture a screenshot. Some smartphones also offer gesture-based screenshots or provide a screenshot option in the quick settings panel. The screenshots are usually saved in the Photos or Gallery app."
+    },
+    {
+      "question": "What is the national anthem of the United States?",
+      "answer": "The national anthem of the United States is 'The Star-Spangled Banner.'"
+    },
+    {
+      "question": "How do I set a reminder on my phone?",
+      "answer": "The process for setting a reminder on your phone depends on the operating system and device you are using. Generally, you can use the built-in reminder or calendar app, choose the option to create a new reminder or event, and specify the date, time, and details of the reminder. You can usually set reminders to alert you with a notification, sound, or vibration at the designated time."
+    },
+    {
+      "question": "Who is the author of The Twilight Saga?",
+      "answer": "Stephenie Meyer is the author of The Twilight Saga."
+    },
+    {
+      "question": "How do I check my internet speed?",
+      "answer": "To check your internet speed, you can use online speed test tools provided by various websites. Simply search for 'internet speed test' in your preferred search engine, and choose a reputable speed test website. Click the 'Start Test' or similar button on the website, and it will measure your internet connection's download and upload speeds. The results will be displayed on the screen, indicating the speed in Mbps (megabits per second)."
+    },
+    {
+      "question": "What is the national animal of India?",
+      "answer": "The national animal of India is the Bengal tiger."
+    },
+    {
+      "question": "How do I copy and paste text on a computer?",
+      "answer": "To copy and paste text on a computer, you can use keyboard shortcuts or the right-click menu. To copy, select the desired text by clicking and dragging the cursor over it, or use the Ctrl+A shortcut to select all text. Once selected, press Ctrl+C (Windows) or Command+C (Mac) to copy the text to the clipboard. To paste, place the cursor where you want to paste the text and press Ctrl+V (Windows) or Command+V (Mac). Alternatively, you can right-click and choose the 'Copy' or 'Paste' option from the context menu."
+    },
+    {
+      "question": "Who is the author of To Kill a Mockingbird?",
+      "answer": "Harper Lee is the author of To Kill a Mockingbird."
+    },
+    {
+      "question": "How do I enable/disable airplane mode on my phone?",
+      "answer": "To enable or disable airplane mode on your phone, you can swipe down from the top of the screen to access the quick settings panel (on Android) or swipe up from the bottom of the screen (on iPhone). Look for the airplane mode icon, which typically resembles an airplane, and tap it to toggle the mode on or off. Alternatively, you can go to the phone settings and look for the 'Network,' 'Connections,' or 'Wireless & Networks' section to find the airplane mode option."
+    },
+    {
+      "question": "What is the national anthem of India?",
+      "answer": "The national anthem of India is 'Jana Gana Mana.'"
+    },
+    {
+      "question": "How do I enable/disable Wi-Fi on a computer?",
+      "answer": "To enable or disable Wi-Fi on a computer, look for the Wi-Fi icon in the system tray or menu bar. Click on the icon to open the Wi-Fi menu, and choose the option to toggle Wi-Fi on or off. On some computers, you may need to press a physical button or use a function (Fn) key in combination with a Wi-Fi key to enable or disable Wi-Fi. Additionally, you can go to the network settings in the control panel or system preferences and enable or disable Wi-Fi from there."
+    },
+    {
+      "question": "Who is the author of The Great Gatsby?",
+      "answer": "F. Scott Fitzgerald is the author of The Great Gatsby."
+    },
+    {
+      "question": "How do I add a contact to my phone's address book?",
+      "answer": "To add a contact to your phone's address book, open the Contacts or Phone app. Look for the option to add a new contact, which is usually represented by a '+' or 'Add' button. Enter the contact's name, phone number, email address, and any other relevant information. You can also assign a photo or ringtone to the contact. Once you've entered the details, save the contact, and it will be added to your address book."
+    },
+    {
+      "question": "What is the national sport of Canada?",
+      "answer": "The national sport of Canada is ice hockey."
+    },
+    {
+      "question": "How do I enable dark mode on a website or app?",
+      "answer": "The process for enabling dark mode on a website or app depends on the specific website or app you are using. Many websites and apps offer a dark mode or night mode option in their settings or preferences menu. Look for a toggle switch or option to switch to dark mode. Alternatively, some operating systems or web browsers have a system-wide dark mode that applies to all compatible websites and apps."
+    },
+    {
+      "question": "Who is the author of The Fault in Our Stars?",
+      "answer": "John Green is the author of The Fault in Our Stars."
+    },
+    {
+      "question": "How do I take a screenshot on a computer?",
+      "answer": "To take a screenshot on a computer, you can use keyboard shortcuts or built-in tools. On Windows, press the PrtScn (Print Screen) key to capture a screenshot of the entire screen. The screenshot will be copied to the clipboard, and you can paste it into an image editing software or document. On Mac, press Shift+Command+3 to capture the entire screen or Shift+Command+4 to capture a specific area. The screenshot file will be saved to the desktop. Some computers and operating systems also have dedicated screenshot tools or apps for capturing screenshots."
+    },
+    {
+      "question": "What is the national flower of Canada?",
+      "answer": "The national flower of Canada is the maple leaf."
+    },
+    {
+      "question": "How do I change the ringtone on my phone?",
+      "answer": "The process for changing the ringtone on your phone depends on the operating system and device you are using. Generally, you can go to the sound or ringtone settings in your phone's settings menu. Look for the option to change the ringtone or notification sound. From there, you can select a pre-installed ringtone or browse your device's storage for custom ringtones. Once you've chosen a ringtone, save the changes, and it will be set as your new ringtone."
+    },
+    {
+      "question": "Who is the author of Pride and Prejudice?",
+      "answer": "Jane Austen is the author of Pride and Prejudice."
+    },
+    {
+      "question": "How do I update the operating system on my computer?",
+      "answer": "The process for updating the operating system on a computer depends on the specific operating system you are using. Generally, you can go to the system settings or control panel, look for the 'Update & Security' or 'System Updates' section, and choose the option to check for updates. If updates are available, follow the on-screen instructions to download and install them. Make sure to save any important work and restart your computer if required to complete the update process."
+    },
+    {
+      "question": "What is the national sport of England?",
+      "answer": "The national sport of England is cricket."
+    },
+    {
+      "question": "How do I send a text message on my phone?",
+      "answer": "To send a text message on your phone, open the messaging or SMS app. Choose the option to create a new message or tap the compose button. Enter the recipient's phone number or choose a contact from your address book. Type your message in the text input field, and then tap the send button or the paper plane icon to send the message. Some messaging apps also allow you to send multimedia messages (MMS) with photos, videos, or other attachments."
+    },
+    {
+      "question": "Who is the author of The Catcher in the Rye?",
+      "answer": "J.D. Salinger is the author of The Catcher in the Rye."
+    },
+    {
+      "question": "How do I set up a voicemail on my phone?",
+      "answer": "The process for setting up a voicemail on your phone depends on the specific phone carrier and device you are using. Generally, you can open the phone app and look for the voicemail or settings menu. From there, you may need to follow prompts to create a voicemail password, record a personalized greeting, and set up other voicemail preferences. If you're unsure, you can contact your phone carrier's customer support for specific instructions on setting up voicemail."
+    },
+    {
+      "question": "What is the national flower of England?",
+      "answer": "The national flower of England is the rose."
+    },
+    {
+      "question": "How do I enable/disable location services on my phone?",
+      "answer": "To enable or disable location services on your phone, go to the settings or system preferences. Look for the 'Location' or 'Location Services' section, and choose the option to toggle location services on or off. When location services are enabled, your phone uses GPS, Wi-Fi, or mobile network data to determine your device's location for various apps and services. Disabling location services can help conserve battery life and enhance privacy."
+    },
+    {
+      "question": "Who is the author of 1984?",
+      "answer": "George Orwell is the author of 1984."
+    },
+    {
+      "question": "How do I set a wallpaper on my computer?",
+      "answer": "To set a wallpaper on your computer, right-click on the desktop and choose the 'Personalize' or 'Properties' option from the context menu. In the personalization or display settings, look for the 'Background' or 'Wallpaper' section. Choose a pre-installed wallpaper from the available options or click the 'Browse' button to select an image from your computer's storage. Once you've chosen a wallpaper, apply the changes, and it will be set as your new desktop background."
+    },
+    {
+      "question": "What is the national sport of China?",
+      "answer": "The national sport of China is table tennis."
+    },
+    {
+      "question": "How do I set up a Wi-Fi network at home?",
+      "answer": "To set up a Wi-Fi network at home, you need a wireless router or modem-router combo and an active internet connection. Here are the general steps:\n\n1. Connect the router to a power source and turn it on.\n2. Use an Ethernet cable to connect the router to the modem or the incoming internet connection.\n3. Access the router's configuration page by entering its IP address in a web browser.\n4. Follow the setup wizard or configuration instructions provided by the router manufacturer.\n5. Set a network name (SSID) and password for your Wi-Fi network.\n6. Save the settings, and the router will restart.\n7. Connect your devices to the Wi-Fi network using the network name and password.\n\nNote that specific setup instructions may vary depending on the router model and manufacturer. It's recommended to consult the user manual or online documentation for detailed instructions."
+    },
+    {
+      "question": "Who is the author of Moby-Dick?",
+      "answer": "Herman Melville is the author of Moby-Dick."
+    },
+    {
+      "question": "How do I create a new email account?",
+      "answer": "To create a new email account, you can choose from various email service providers such as Gmail, Outlook, Yahoo, or others. Visit the website of the email provider you prefer and look for a 'Sign Up,' 'Create Account,' or 'Register' option. Click on it, and you will be directed to a registration form. Fill in the required information, including your name, desired email address, password, and additional details as requested. Complete any verification steps, such as entering a verification code sent to your phone or email. Once you've finished the registration process, your new email account will be created, and you can start using it to send and receive emails."
+    },
+    {
+      "question": "What is the national sport of Japan?",
+      "answer": "The national sport of Japan is sumo wrestling."
+    },
+    {
+      "question": "How do I change the font size on a website or document?",
+      "answer": "To change the font size on a website or document, you can use the built-in options of the respective software or browser. On websites, you can usually change the font size using the browser's zoom feature. Press Ctrl and '+' (plus key) to increase the font size or Ctrl and '-' (minus key) to decrease it. Alternatively, you can look for font size options in the website's settings or preferences menu. In document editing software like Microsoft Word or Google Docs, you can select the text and use the font size dropdown or toolbar buttons to change the font size."
+    },
+    {
+      "question": "Who is the author of The Lord of the Rings?",
+      "answer": "J.R.R. Tolkien is the author of The Lord of the Rings."
+    },
+    {
+      "question": "How do I delete a file on a computer?",
+      "answer": "To delete a file on a computer, navigate to the location where the file is stored, such as a file explorer window or desktop. Right-click on the file you want to delete and choose the 'Delete' or 'Move to Trash' option from the context menu. Alternatively, you can select the file and press the Delete or Del key on your keyboard. Keep in mind that deleting a file sends it to the Recycle Bin or Trash folder, where it can be restored if needed. To permanently delete a file, you may need to empty the Recycle Bin or Trash folder."
+    },
+    {
+      "question": "What is the national sport of Brazil?",
+      "answer": "The national sport of Brazil is soccer (football)."
+    },
+    {
+      "question": "How do I set an alarm on my phone?",
+      "answer": "The process for setting an alarm on your phone depends on the operating system and device you are using. Generally, you can open the Clock or Alarm app. Choose the option to create a new alarm and set the desired time, alarm tone, and repeat settings. Save the alarm, and it will be activated at the specified time. You can usually toggle the alarm on or off by tapping the alarm switch or using the designated alarm settings. Some phones also allow you to set multiple alarms or customize alarm settings further."
+    },
+    {
+      "question": "Who is the author of The Odyssey?",
+      "answer": "Homer is traditionally credited as the author of The Odyssey."
+    },
+    {
+      "question": "How do I enable/disable notifications on my phone?",
+      "answer": "To enable or disable notifications on your phone, go to the settings or notification settings. Look for the 'Notifications' or 'Notification Center' section, where you can customize notification preferences. From there, you can enable or disable notifications for specific apps, adjust notification sounds and vibration settings, and manage other notification-related options. Some phones also provide a quick access panel or shortcut to toggle notifications on or off directly from the notification shade."
+    },
+    {
+      "question": "What is the national sport of Australia?",
+      "answer": "The national sport of Australia is Australian rules football."
+    },
+    {
+      "question": "How do I format text in a word processing document?",
+      "answer": "To format text in a word processing document, you can use the formatting options provided by the software you are using, such as Microsoft Word or Google Docs. Here are some common formatting options:\n\n- Font Styles: You can change the font type, size, and color of the text.\n- Bold, Italic, Underline: You can apply these formatting styles to emphasize or highlight the text.\n- Alignment: You can align the text to the left, right, center, or justify it.\n- Bullets and Numbering: You can create bulleted or numbered lists.\n- Headings and Subheadings: You can apply different heading styles to organize the document.\n- Indentation: You can adjust the indentation of paragraphs or lines of text.\n- Highlighting: You can highlight text using different colors.\n\nThese options are typically available in the formatting toolbar or menu of the word processing software."
+    },
+    {
+      "question": "Who is the author of War and Peace?",
+      "answer": "Leo Tolstoy is the author of War and Peace."
+    },
+    {
+      "question": "How do I clear browser history?",
+      "answer": "To clear browser history, open your web browser and look for the browser settings or options menu. From there, you can usually find a 'History' or 'Privacy & Security' section. In that section, you'll find an option to clear browsing history or delete browsing data. When you select this option, you can choose the specific data you want to clear, such as browsing history, cookies, cached images and files, and more. After selecting the desired options, confirm the deletion, and the browser will clear your browsing history."
+    },
+    {
+      "question": "What is the national sport of Germany?",
+      "answer": "The national sport of Germany is soccer (football)."
+    },
+    {
+      "question": "How do I check my email on a computer?",
+      "answer": "To check your email on a computer, open a web browser and visit the website of your email service provider. For example, if you use Gmail, go to gmail.com. Enter your email address and password in the provided fields and click 'Sign In' or 'Log In.' Once you've successfully logged in, you will be able to access your inbox, read and send emails, manage folders, and perform other email-related tasks. Alternatively, you can use email client software like Microsoft Outlook or Mozilla Thunderbird to configure your email account and check your emails directly from the software."
+    },
+    {
+      "question": "Who is the author of The Chronicles of Narnia?",
+      "answer": "C.S. Lewis is the author of The Chronicles of Narnia."
+    },
+    {
+      "question": "How do I take a screenshot on a phone?",
+      "answer": "To take a screenshot on a phone, the process may vary slightly depending on the operating system and device you are using. Here are the general methods:\n\n- On Android: Press the Power button and Volume Down button simultaneously and hold them for a few seconds. The screen will flash, indicating that the screenshot has been captured.\n\n- On iPhone: Press the Side button (or the Home button on older models) and the Volume Up button simultaneously and release them quickly. The screen will flash, and you'll hear a camera shutter sound if the sound is enabled.\n\nAfter taking a screenshot, you can usually find it in the Photos, Gallery, or Screenshots app on your phone. From there, you can view, edit, or share the screenshot as needed."
+    },
+    {
+      "question": "What is the national sport of India?",
+      "answer": "The national sport of India is field hockey."
+    },
+    {
+      "question": "How do I set a timer on my phone?",
+      "answer": "To set a timer on your phone, you can use the built-in Clock or Timer app. Open the app and choose the 'Timer' option. Set the desired countdown time using the provided controls or keypad. Once you've set the time, tap the 'Start' or 'Go' button to start the timer. You can usually see the remaining time on the screen and receive notifications when the timer completes. Some timer apps also provide additional features like multiple timers, custom alarm sounds, and repeating timers."
+    },
+    {
+      "question": "Who is the author of To Kill a Mockingbird?",
+      "answer": "Harper Lee is the author of To Kill a Mockingbird."
+    },
+    {
+      "question": "How do I change the language settings on my phone?",
+      "answer": "To change the language settings on your phone, go to the settings or system preferences. Look for the 'Language & Input' or 'Language & Region' section. From there, you can choose the desired language from the available options. Select the language you want to use, and the phone will apply the changes. Keep in mind that changing the language may require the phone to restart, and some apps or menus may not be available in all languages."
+    },
+    {
+      "question": "What is the national sport of Canada?",
+      "answer": "The national sport of Canada is lacrosse."
+    },
+    {
+      "question": "How do I create a strong password?",
+      "answer": "To create a strong password, follow these guidelines:\n\n- Use a combination of uppercase and lowercase letters, numbers, and special characters.\n- Make it at least 8 characters long, but longer passwords are generally more secure.\n- Avoid using personal information like your name, birthdate, or address.\n- Don't use common words or easily guessable phrases.\n- Don't reuse the same password for multiple accounts.\n- Consider using a password manager to generate and securely store your passwords.\n\nRemember to regularly update and change your passwords to maintain security."
+    },
+    {
+      "question": "Who is the author of The Great Gatsby?",
+      "answer": "F. Scott Fitzgerald is the author of The Great Gatsby."
+    },
+    {
+      "question": "How do I connect my phone to a Wi-Fi network?",
+      "answer": "To connect your phone to a Wi-Fi network, follow these steps:\n\n1. Open the Settings app on your phone.\n2. Look for the 'Wi-Fi' or 'Connections' option and tap on it.\n3. Make sure the Wi-Fi toggle switch is turned on.\n4. Your phone will scan for available Wi-Fi networks. Tap on the network you want to connect to.\n5. If the network is secured, enter the password when prompted.\n6. Your phone will attempt to connect to the Wi-Fi network. Once connected, you will see a Wi-Fi icon in the status bar.\n\nNote that the exact steps may vary slightly depending on the phone's operating system and version."
+    }
 
+]
