@@ -3,6 +3,14 @@
 window.onload = function (){
     
 
+  function smoothScroll(target) {
+    const targetSection = document.querySelector(target);
+    targetSection.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+  
+
 
     const menu_btn = document.querySelector('.hamburger')
     const mobile_menu = document.querySelector('.mobile-nav')

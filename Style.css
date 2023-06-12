@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html{
-  background: url(Images-and-videos/WebBg2.png);
+  background: url(Images-and-videos/Background-image.png);
   background-size: 400px;
-  background-color: black;
+  background-color  : black;
+  scroll-behavior: smooth;
   
  
 }
@@ -13,26 +14,31 @@ html{
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 
 
 header{
-  background-color: transparent;
+  background-color: #f0f0f0;
   width: 100%;
   position: fixed;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 200px;
-  transition: 0.7ms ease;
+  padding: 7px 200px;
+  transition: 0.7s ease;
 }
 
 .logo{
   text-decoration: none;
-  color: #f43a3a;
+  color: transparent;
   text-transform: uppercase;
+  background-image: url(Images-and-videos/output_image7\ \(1\)\ \(1\).png);
+  background-position: center;
+  background-size: 370px;
+  background-repeat: no-repeat;
   
   
  
@@ -40,7 +46,9 @@ header{
 
 .navigation a{
   
-  color: #ffffff;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 600;
@@ -49,7 +57,9 @@ header{
 }
 .navigation .nav-main{
   
-  color: #f43a3a;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 600;
@@ -57,10 +67,16 @@ header{
   transition: 0.3s ease;
 }
 .navigation .nav-main:hover{
-  color: #8d0f0f;
+  background: linear-gradient(to right, #003477, #009e7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.1);
+
 }
 .navigation a:hover{
-  color: #666666;
+  background: linear-gradient(to right, #003477, #009e7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transform: scale(1.1);
 }
 
@@ -74,24 +90,30 @@ section{
   justify-content: center;
 }
 .main {
-  width: 100%;
+  
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(Images-and-videos/WebBg.png);
+  justify-content: center;
+  background-image: url(Images-and-videos/Untitled-3.png);
+
   background-size: cover;
   background-position: center;
 
 }
 .main h2{
-  color: white;
+  color: #1a1a1a;
+  text-align: center;
   font-size: 1.4em;
-  font-weight: 200;
+  font-weight: 250;
 }
 .main h2 span{
-  display: inline-block;
+  text-align: center;
   margin-top: 10px;
-  color: #f43a3a;
+  background-color: #1a1a1a;
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 3em;
   font-weight: 300;
   
@@ -113,7 +135,10 @@ section{
 
 
 .main h3{
-  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #666;
   font-size: 1.6em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -126,13 +151,18 @@ section{
 }
 .main-btn{
   color: white;
-  background-color: rgb(244, 58, 58, 1);
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  -webkit-text-fill-color: white;
   box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 350;
-  display: inline-block;
   padding: 0.9375em 2.1875em;
+  margin-left: 120px;
+  margin-right: 120px;
   letter-spacing: 1px;
   border-radius: 15px;
   margin-bottom: 40px;
@@ -142,11 +172,14 @@ section{
 
 .main-btn:hover{
   background-color: rgba(141, 15, 15, 0.04);
-  transform: scale(1.1);
+  
+  transform: scale(1.06);
 }
 
 .social-icons a {
-  color: white;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2em;
   padding-right: 30px;
   transition: 0.7s ease;
@@ -157,10 +190,18 @@ section{
   
 }
 .about{
-  background: url(Images-and-videos/WebBg3.png);
+  
+  background-image: url(Images-and-videos/Background-image.png);
+
+  background-size: 2000px;
+  background-position: center;
+
   background-size: 400px;
 }
 .title{
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: flex;
   justify-content: center;
   color: white;
@@ -170,7 +211,7 @@ section{
 }
 .description{
   
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.35em;
   font-weight: 200;
   display: flex;
@@ -188,21 +229,25 @@ section{
 .title-2{
   display: flex;
   justify-content: center;
-  color: white;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2.2em;
   font-weight: 300;
   margin-bottom: 30px;
 } 
 .cards{
-  background: url(Images-and-videos/WebBg2.png);
+  background: url(Images-and-videos/Background-image.png);
   background-size: 400px;
 
 
 }
 .card{
-  background-color: transparent;
+  background-color: white;
   width: 21.25em;
-  box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  
+  
   border-radius: 10px;
   padding: 25px;
   margin: 15px;
@@ -214,18 +259,20 @@ section{
 }
 
 .icon {
-  color: #ff0000;
+  color: #fff;
+  
   font-size: 8em;
   text-align: center;
 }
 
 .info{
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
 .info h3 {
-  color: #ff0000;
+  color: white;
+  
   font-size: 1.2em;
   font-weight: 300;
   margin: 10px;
@@ -233,7 +280,7 @@ section{
 
 .footer {
 
-  color: white;
+  color: rgb(0, 0, 0);
   background-color: transparent;
   background-size: 400px;
   background-position-y: 9000px;
@@ -245,12 +292,15 @@ section{
 .footer p{
   font-size: 1.3em;
   font-weight: 200;
+  color: #1a1a1a;
   
 }
 .footer span{
   font-size: 1.4em;
   font-weight: 300;
-  color: #f43a3a;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (max-width:1023px){
@@ -259,19 +309,19 @@ section{
   }
   .footer {
 
-    color: white;
-    background: url(Images-and-videos/WebBg4.png);
-    background-size: 400px;
-    background-position-y: 970px;
+ 
     padding: 2em;
   
     justify-content: space-between;
   }
   header {
-    padding: 12px 20px;
+    padding: 5px 20px;
     font-size: 0.6em;
+    width: 100%;
   }
-  
+  .logo{
+    background-size: 180px;
+  }
   .info .info-contact{
     font-size: 1em;
     color: rgb(255, 255, 255);
@@ -347,7 +397,7 @@ section{
     display: block;
     width: 2px;
     height: 2px;
-    background-color: #ffff;
+    background-color: #000000;
     margin: 6px -10px;
     transition: 0.4s;
 
@@ -385,7 +435,8 @@ section{
    
     padding-top: 70px;
     transition: 0.4s ease;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 90%, rgba(255, 0, 0, 0.8) 100%);
+    background: linear-gradient(180deg,  rgb(188, 214, 233) 90%,rgb(188, 214, 233) 100%);
+    
 
 
     
@@ -398,7 +449,7 @@ section{
 
 
   .mobile-nav a{
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
     box-shadow: 0 1px 0px rgba(85, 85, 85, 1);
@@ -456,8 +507,8 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(Images-and-videos/WebBg1.png);
-    background-size: cover;
+    background: url(Images-and-videos/Untitled-3.png);
+    background-size: 1900px;
     background-position: center;
 
   }
@@ -478,7 +529,7 @@ section{
 }
 
 .projects {
-  background: url(Images-and-videos/WebBg2.png);
+  background: url(Images-and-videos/Background-image.png);
   
   background-size: 400px;
 }
@@ -488,7 +539,9 @@ section{
 }
 
 .project-card{
-  background-color: transparent;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  
+
   box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
   border: 1px solid rgb(18, 18, 18);
   min-height: 14em;
@@ -534,19 +587,21 @@ section{
 
 .more-details{
   text-decoration: none;
-  color: #f43a3a;
+  color: #ffffff;
   transition: 0.7s ease;
   padding-right: 10px;
   font-weight: 300;
 }
 
 .more-details:hover{
-  color: #8d0f0f;
+  color: #acacac;
   transform: scale(1.1);
 }
 
 .note{
-  color: #f43a3a;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   letter-spacing: 2.5px;
   padding-top: 50px;
@@ -563,7 +618,9 @@ section{
 
 
   .note2{
-    color: #f43a3a;
+    background: linear-gradient(to right, #006eff, #00ffc8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     justify-content: center;
     letter-spacing: 2.5px;
     padding-top: 50px;
@@ -579,14 +636,16 @@ section{
   }
 
   .contact-sec{
-    background: url(Images-and-videos/WebBg5.png) repeat-x;
+    background: url(Images-and-videos/Background-image.png);
     background-color: black;
     background-size: 400px;
     background-position-y: 0;
   }
   
   .contact-card{
-    background-color: transparent;
+    background: linear-gradient(to right, #006eff, #00ffc8);
+   
+    
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(87, 87, 87, 1);
     border-radius: 10px;
@@ -630,20 +689,22 @@ section{
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: 45% 50%;
-    background-color: #f43a3a;
-    border-color: #8d0f0f;
+    background: linear-gradient(to right, #006eff, #00ffc8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-color: #0047a3;
     width: 600px;
     padding-left: 40px;
     cursor: text;
     border-radius: 0%;
-    color: #fff;
+    color: #000000;
     outline: none;
     background-color: transparent;
-    border: 1px solid #8d0f0f;
+    border: 1px solid #003477;
     background-image: url(icons/magnifying-glass-solid-white-svg.svg);
     background-size: 22px;
     background-position: 10px 50%;
-    caret-color: #ff0000;
+    caret-color: #0047a3;
   }
 
   .search:hover{
@@ -778,44 +839,22 @@ section{
   @media(max-width: 1032px){
     
     .contact-sec{
-      background: url(Images-and-videos/WebBg5.png) repeat-x;
+      
       background-color: black;
       background-size: 400px;
       background-position-y: -70px;
     }
   }
-  @media(max-width: 1032px){
-    
-    .footer{
-      background-position-y: 1000px;
-    }
-  }
-  @media(max-width: 1030px){
-    
-    .footer{
-      background-position-y: 1100px;
-      background-color: #ffffff;
-    }
-  }
-  @media(max-width: 641px){
-    
-    .footer{
-      background-position-y: -1820px;
-    }
-  }
-  @media(max-width: 639px){
-    
-    .footer{
-      background-position-y: -180px;
-    }
-  }
+  
+  
 
   ::-webkit-scrollbar{
     width: 8px;
   }
 
   ::-webkit-scrollbar-thumb{
-    background-color: #f43a3a;
+    background: linear-gradient(to right, #006eff, #00ffc8);
+   
     border-radius: 20px;
   }
 
@@ -824,11 +863,14 @@ section{
   }
 
   ::-webkit-scrollbar-thumb:hover{
-    background: #8d0f0f;
+    background: linear-gradient(to right, #0047a3, #008669);
+ 
   }
 
   
+  
   .back-to-top {
+    transition: 0.7s ease;
     
     display: none;
     width: 50px;
@@ -842,10 +884,13 @@ section{
     font-weight: 300;
     text-decoration: none;
     z-index: 998;
+    background: linear-gradient(to right, #006eff, #00ffc8);
   }
   
   .back-to-top:hover {
     background-color: rgba(141, 15, 15, 0.04);
+    background: linear-gradient(to right, #0260db, #00a581);
+    
   }
 
   
@@ -859,6 +904,8 @@ section{
     display: flex;
     justify-content: center;
     transition: 0.7s ease;
+    transition: 0.7s ease;
+    
   }
   
   

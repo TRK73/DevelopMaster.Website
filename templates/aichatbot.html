@@ -6,19 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="Style.css">
+
     <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
     <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
-    <link rel="shortcut icon" href="Images-and-videos/Websiteicon.png">
-    <link rel="stylesheet" href="stylescript2.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='css/Media/Websiteicon.png') }}">
+
     <script src="https://www.google.com/recaptcha/api.js?render=6LefOIolAAAAAP8Olu_sDW9uCHH4HACeeZblINEq"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7489999413558166"
        crossorigin="anonymous"></script>
     <link rel="stylesheet"href="{{ url_for('static', filename='css/Style.css') }}">
     <link rel="stylesheet"href="{{ url_for('static', filename='css/stylescript2.css') }}">
     <style>
+        html{
+
+          background-size: 400px;
+          background-color: black;
+
+
+        }
         .typing::after {
           content: "";
           display: inline-block;
@@ -44,12 +51,16 @@
             box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
             background-color: transparent;
             border: 1px solid white;
-            color: #f43a3a;
+            background: linear-gradient(to right, #006eff, #00ffc8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             padding-left: 10px;
         }
         button[type="submit"] {
             color: white;
-            background-color: rgb(244, 58, 58, 1);
+            background: linear-gradient(to right, #006eff, #00ffc8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             box-shadow: 0 5px 25px rgba(85, 85, 85, 0.26);
             text-decoration: none;
             font-size: 1.1em;
@@ -68,7 +79,9 @@
             font-size: 16px;
             border: none;
             border-radius: 0 4px 4px 0;
-            background-color: #f43a3a;
+            background: linear-gradient(to right, #006eff, #00ffc8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             color: #fff;
             cursor: pointer;
         }
@@ -78,11 +91,11 @@
             padding: 0;
             box-sizing: border-box;
             scroll-behavior: smooth;
-            color: white;
+            color: rgb(0, 0, 0);
         }
 
         h1{
-            color: white;
+            color: rgb(0, 0, 0);
             text-align: center;
             padding-bottom: 30px;
         }
@@ -91,7 +104,7 @@
             border: 2px;
 
 
-            background-color: red;
+            
             color: white;
             background-color: transparent;
             width: 100%;
@@ -102,31 +115,8 @@
             margin: 15px;
             transition: 0.7s ease;
         }
-        .chat-sec{
-            width: 100%;
-            min-height: 100vh;
-            padding:30px;
-            align-items: center;
-            background-image: url(Images-and-videos/WebBg.png);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-color: #080808;
 
-        }
-        @media (max-width:641px){
 
-            .chat-sec {
-                width: 100%;
-                min-height: 100vh;
-
-                align-items: center;
-                background-image: url();
-                background-size: cover;
-                background-position: center;
-                background-attachment: fixed;
-            }
-        }
         input, textarea {
             display: block;
             margin-bottom: 10px;
@@ -136,21 +126,25 @@
             box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
             background-color: transparent;
             border: 1px solid white;
-            color: red;
+            background: linear-gradient(to right, #006eff, #00ffc8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             padding-left: 10px;
-            border: 1px solid red;
+            border: 1px solid rgb(0, 132, 255);
             border-radius: 10px;
 
         }
         input, textarea:hover {
-            border: 1px solid red;
+            border: 1px solid rgb(0, 132, 255);
         }
         .message.user {
           color: white;
         }
 
         .message.ai {
-          color: red;
+          background: linear-gradient(to right, #006eff, #00ffc8);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
           position: relative;
         }
 
@@ -159,7 +153,9 @@
           display: inline-block;
           width: 8px;
           height: 8px;
-          background-color: red;
+          background: linear-gradient(to right, #006eff, #00ffc8);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
           border-radius: 50%;
           position: absolute;
           bottom: 3px;
@@ -167,14 +163,35 @@
           animation: typing 0.8s infinite;
         }
 
+        .patreon-button{
+          color: rgb(0, 0, 0);
+          
+          box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
+          text-decoration: none;
+          font-size: 1.1em;
+          font-weight: 350;
+          display: inline-block;
+          padding: 0.5375em 1.1875em;
+          letter-spacing: 1px;
+          border-radius: 15px;
+          margin-bottom: 40px;
+          margin-top: 40px;
+          transition: 0.7s ease;
+        }
+
+        .patreon-button:hover{
+          background-color: rgba(141, 15, 15, 0.04);
+          transform: scale(1.1);
+        }
+
     </style>
 </head>
 <body>
-  
+
     <section class="chat-sec" >
-        
-        <h1>AI Chatbot Version 1.0</h1>
-        <h4 style="text-align: center;">NOTE : This AI is very limited (Can do simple math by typing - calculate - at the first then type the expression and chat with you only) and it can't answer every question and dont search like that (what is football?) you have to search like that (football) other than that it may answer weird answers. and if you want to clear the chat you have to refresh the page </h4>
+
+        <h1>AI Chatbot Version 1.2</h1>
+        <h4 style="text-align: center;">NOTE : This AI is limited (Can do simple math by typing - calculate - at the first then type the expression and chat with you only) and it can't answer every question . All the Data in this AI is limited to 2021. and if you want to clear the chat you have to refresh the page </h4>
         <div id="chat-container">
             <div id="message-container"></div>
             <form id="chat-form">
@@ -183,7 +200,9 @@
             </form>
           </div>
 
-          <a href="https://ys.yusifsite.net/profile.html" style="display: flex; justify-content: center; padding-top: 30px; text-decoration: none; color: red;"><--Go back</a>
+          <a href="https://ys.yusifsite.net/profile.html" style="display: flex; justify-content: center; padding-top: 30px; text-decoration: none; color: rgb(0, 132, 255);"><--Go back</a>
+        <h2 style="text-align: center; font-size: 1.2em; font-weight: 300;">If you want to donate. Then Just Click <a class="patreon-button" href="https://patreon.com/user?u=94559287&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link">Here</a></h2>
+          <h2 class="note">*Note : <span class="h3">All The Money That Will Be Donated Will Be Spent On The AI And The Other Projects.</span>.*</h2>
     </section>
 
 

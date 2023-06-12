@@ -1,7 +1,7 @@
 label {
     display: block;
     margin-bottom: 5px;
-    color: #f43a3a;
+    color: white;
   }
   
   input, textarea {
@@ -14,7 +14,7 @@ label {
     box-shadow: 0 5px 25px rgba(85, 85, 85, 1);
     background-color: transparent;
     border: 1px solid white;
-    color: #f43a3a;
+    color: black;
     padding-left: 10px;
   }
   input, textarea{
@@ -24,12 +24,14 @@ label {
   }
 
   input, textarea:hover{
-    border: 1px solid #f43a3a;
+    border: 1px solid linear-gradient(to right, #006eff, #00ffc8);
+ 
     
   }
   button[type="submit"] {
     color: white;
-    background-color: rgb(244, 58, 58, 1);
+    background: linear-gradient(to right, #006eff, #00ffc8);
+    
     box-shadow: 0 5px 25px rgba(85, 85, 85, 0.26);
     text-decoration: none;
     font-size: 1.1em;
@@ -50,7 +52,9 @@ label {
   }
   
 #status{
-    color: #fc0f0f;
+  background: linear-gradient(to right, #006eff, #00ffc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     
 }
 
@@ -83,7 +87,9 @@ label {
 
 .Search-Sec a{
   color: white;
-  background-color: #f43a3a;
+  background: linear-gradient(to right, #003477, #009e7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
   font-size: 2em;
   font-weight: 300;
@@ -121,13 +127,28 @@ input[type=text1] {
 }
 
 button {
-  padding: 8px 16px;
+  
   font-size: 16px;
   border: none;
   border-radius: 0 4px 4px 0;
-  background-color: #f43a3a;
+  
+  background: linear-gradient(to right, #003477, #009e7c);
+  
   color: #fff;
   cursor: pointer;
+}
+
+.Section1-1{
+  width: 100%;
+  min-height: 100vh;
+  
+  align-items: center;
+  justify-content: center;
+  background-image: url(Images-and-videos/Untitled-3.png);
+
+  background-size: cover;
+  background-position: center;
+
 }
 
 .project-card2 {
@@ -150,7 +171,9 @@ button {
   padding-right: 10px;
   font-weight: 300;
   font-size: 1em;
-  color: #f43a3a;
+  background: linear-gradient(to right, #003477, #009e7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .project-card2 .more-details{
   text-decoration: none;
@@ -164,22 +187,6 @@ button {
   scale: 1.1;
   background-color: transparent;
 }
-
-.Search-Sec .Go-Back{
-  background-color: transparent;
-  color: #f43a3a;
-  font-size: 1.2em;
-}
-.Search-Sec .Go-Back:hover{
-  background-color: transparent;
-  color: #f43a3a;
-}
-
-.Search-Sec.is-active::before{
-  display: none;
-}
-
-
 
 .projects-list {
   margin-top: 20px;

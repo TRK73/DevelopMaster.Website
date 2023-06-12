@@ -13740,6 +13740,310 @@
                                     {
                                     "question": "Which football team won the most Oceania Football Confederation (OFC) Champions League titles?",
                                     "answer": "Auckland City FC from New Zealand has won the most OFC Champions League titles with a total of 9."
+                                    },
+                                    {
+                                      "question": "What is programming?",
+                                      "answer": "Programming is the process of creating instructions that a computer can follow to perform specific tasks."
+                                    },
+                                    {
+                                      "question": "What is a programming language?",
+                                      "answer": "A programming language is a formal language used to write computer programs."
+                                    },
+                                    {
+                                      "question": "What is the difference between a compiler and an interpreter?",
+                                      "answer": "A compiler translates the entire program into machine code before running, while an interpreter translates and executes the program line by line."
+                                    },
+                                    {
+                                      "question": "What is an algorithm?",
+                                      "answer": "An algorithm is a step-by-step procedure or set of rules for solving a specific problem."
+                                    },
+                                    {
+                                      "question": "What is a variable?",
+                                      "answer": "A variable is a named storage location in computer memory that holds a value."
+                                    },
+                                    {
+                                      "question": "What is the difference between a function and a method?",
+                                      "answer": "A function is a standalone block of code that can be called from anywhere in the program. A method is a function associated with an object or a class."
+                                    },
+                                    {
+                                      "question": "What is object-oriented programming (OOP)?",
+                                      "answer": "Object-oriented programming is a programming paradigm that organizes data and behavior into reusable structures called objects."
+                                    },
+                                    {
+                                      "question": "What is the purpose of version control systems?",
+                                      "answer": "Version control systems track changes to files over time, allowing multiple people to collaborate on a project and providing a history of changes."
+                                    },
+                                    {
+                                      "question": "What is a database?",
+                                      "answer": "A database is an organized collection of data stored and accessed electronically."
+                                    },
+                                    {
+                                      "question": "What is SQL?",
+                                      "answer": "SQL (Structured Query Language) is a programming language used for managing and manipulating data in relational databases."
+                                    },
+                                    {
+                                      "question": "What is the difference between front-end and back-end development?",
+                                      "answer": "Front-end development involves designing and implementing the user interface of a website or application, while back-end development focuses on the server-side logic and database interactions."
+                                    },
+                                    {
+                                      "question": "What is a framework?",
+                                      "answer": "A framework is a pre-designed software platform that provides a structure and set of tools for developing applications."
+                                    },
+                                    {
+                                      "question": "What is the purpose of testing in software development?",
+                                      "answer": "Testing is the process of evaluating a system or component to ensure it meets specified requirements and works correctly."
+                                    },
+                                    {
+                                      "question": "What is version control?",
+                                      "answer": "Version control is a system that records changes to a file or set of files over time, allowing you to recall specific versions later."
+                                    },
+                                    {
+                                      "question": "What is the difference between HTTP and HTTPS?",
+                                      "answer": "HTTP (Hypertext Transfer Protocol) is an unsecured protocol, while HTTPS (Hypertext Transfer Protocol Secure) encrypts the data sent between a web server and a web browser."
+                                    },
+                                    {
+                                      "question": "What is the purpose of a bug tracker?",
+                                      "answer": "A bug tracker is a software tool that helps track and manage software issues, bugs, and feature requests."
+                                    },
+                                    {
+                                      "question": "What is a code review?",
+                                      "answer": "A code review is a process where developers review and analyze each other's code to ensure quality, readability, and adherence to best practices."
+                                    },
+                                    {
+                                      "question": "What is the difference between a library and a framework?",
+                                      "answer": "A library is a collection of prewritten code that can be reused, while a framework is a complete application structure that provides specific functionality and guidelines for development."
+                                    },
+                                    {
+                                      "question": "What is the purpose of an API?",
+                                      "answer": "An API (Application Programming Interface) defines a set of rules and protocols for building software applications and enables communication between different software systems."
+                                    },
+                                    {
+                                      "question": "What is a data structure?",
+                                      "answer": "A data structure is a way of organizing and storing data in a computer so that it can be accessed and manipulated efficiently."
+                                    },
+                                    {
+                                      "question": "What is the difference between static and dynamic typing?",
+                                      "answer": "Static typing requires explicit declaration of variable types, while dynamic typing allows variables to be assigned values of any type."
+                                    },
+                                    {
+                                      "question": "What is recursion?",
+                                      "answer": "Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems."
+                                    },
+                                    {
+                                      "question": "What is the purpose of a software design pattern?",
+                                      "answer": "Software design patterns are reusable solutions to common problems in software design and architecture."
+                                    },
+                                    {
+                                      "question": "What is the role of a software architect?",
+                                      "answer": "A software architect designs and oversees the construction of software systems, ensuring they meet the desired functional and quality requirements."
+                                    },
+                                    {
+                                      "question": "What is continuous integration (CI)?",
+                                      "answer": "Continuous integration is a development practice where developers regularly merge their code changes into a central repository, which is then automatically built and tested."
+                                    },
+                                    {
+                                      "question": "What is the difference between a bug and a feature?",
+                                      "answer": "A bug is an unintended flaw or error in software, while a feature is a planned functionality or capability of the software."
+                                    },
+                                    {
+                                      "question": "What is a software development life cycle (SDLC)?",
+                                      "answer": "A software development life cycle is a series of phases and activities that guide the development of a software application, from initial planning to deployment and maintenance."
+                                    },
+                                    {
+                                      "question": "What is a user interface (UI)?",
+                                      "answer": "A user interface is the means through which a user interacts with a computer or software application."
+                                    },
+                                    {
+                                      "question": "What is the difference between procedural and object-oriented programming?",
+                                      "answer": "Procedural programming focuses on procedures and functions, while object-oriented programming emphasizes objects and classes."
+                                    },
+                                    {
+                                      "question": "What is the purpose of documentation in software development?",
+                                      "answer": "Documentation provides information about the software's features, usage, architecture, and other relevant details, helping developers, users, and maintainers understand and work with the software."
+                                    },
+                                    {
+                                      "question": "What is the difference between a variable and a constant?",
+                                      "answer": "A variable can be assigned different values throughout the program, while a constant represents a value that cannot be changed once defined."
+                                    },
+                                    {
+                                      "question": "What is the role of a software engineer?",
+                                      "answer": "A software engineer designs, develops, tests, and maintains software systems."
+                                    },
+                                    {
+                                      "question": "What is the difference between procedural and declarative programming?",
+                                      "answer": "Procedural programming focuses on describing the steps to solve a problem, while declarative programming focuses on describing the desired outcome without specifying the steps."
+                                    },
+                                    {
+                                      "question": "What is a software module?",
+                                      "answer": "A software module is a self-contained unit of code that performs a specific function or provides a specific feature."
+                                    },
+                                    {
+                                      "question": "What is the purpose of a software requirements specification?",
+                                      "answer": "A software requirements specification document defines the functional and non-functional requirements of a software system."
+                                    },
+                                    {
+                                      "question": "What is an IDE?",
+                                      "answer": "An IDE (Integrated Development Environment) is a software application that provides comprehensive tools and features for software development."
+                                    },
+                                    {
+                                      "question": "What is the role of a version control system?",
+                                      "answer": "A version control system manages and tracks changes to files, allowing multiple developers to collaborate on a project while keeping a history of changes."
+                                    },
+                                    {
+                                      "question": "What is web development?",
+                                      "answer": "Web development is the process of creating websites and web applications using technologies like HTML, CSS, and JavaScript."
+                                    },
+                                    {
+                                      "question": "What is client-side development?",
+                                      "answer": "Client-side development refers to the creation of code that runs on the client's browser or device, such as JavaScript code."
+                                    },
+                                    {
+                                      "question": "What is server-side development?",
+                                      "answer": "Server-side development involves writing code that runs on the server and generates the HTML, CSS, and other resources sent to the client."
+                                    },
+                                    {
+                                      "question": "What is the difference between a website and a web application?",
+                                      "answer": "A website typically contains static content and provides information, while a web application is interactive and allows users to perform tasks."
+                                    },
+                                    {
+                                      "question": "What is responsive web design?",
+                                      "answer": "Responsive web design is an approach to design and development that ensures websites and applications adapt to different screen sizes and devices."
+                                    },
+                                    {
+                                      "question": "What is the Document Object Model (DOM)?",
+                                      "answer": "The Document Object Model is a programming interface for HTML and XML documents, representing the structure of the document as a tree of objects."
+                                    },
+                                    {
+                                      "question": "What is a RESTful API?",
+                                      "answer": "A RESTful API (Representational State Transfer) is an architectural style for designing networked applications, emphasizing a stateless, client-server communication model."
+                                    },
+                                    {
+                                      "question": "What is the difference between front-end and back-end development?",
+                                      "answer": "Front-end development focuses on the user interface and user experience, while back-end development deals with server-side logic and database management."
+                                    },
+                                    {
+                                      "question": "What is a content management system (CMS)?",
+                                      "answer": "A content management system is a software platform that enables the creation and management of digital content, such as websites or blogs."
+                                    },
+                                    {
+                                      "question": "What is the role of HTML in web development?",
+                                      "answer": "HTML (Hypertext Markup Language) is used to structure the content and define the elements of a web page."
+                                    },
+                                    {
+                                      "question": "What is CSS?",
+                                      "answer": "CSS (Cascading Style Sheets) is used to define the visual style and layout of HTML elements in a web page."
+                                    },
+                                    {
+                                      "question": "What is JavaScript?",
+                                      "answer": "JavaScript is a programming language used to add interactivity and dynamic behavior to websites and web applications."
+                                    },
+                                    {
+                                      "question": "What is a database?",
+                                      "answer": "A database is a structured collection of data that is organized and accessible in various ways."
+                                    },
+                                    {
+                                      "question": "What is SQL?",
+                                      "answer": "SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases."
+                                    },
+                                    {
+                                      "question": "What is a framework in web development?",
+                                      "answer": "A framework is a pre-established codebase that provides a structure and set of tools for building web applications."
+                                    },
+                                    {
+                                      "question": "What is version control?",
+                                      "answer": "Version control is a system that tracks and manages changes to files over time, allowing multiple developers to collaborate and revert changes if needed."
+                                    },
+                                    {
+                                      "question": "What is the difference between Git and GitHub?",
+                                      "answer": "Git is a distributed version control system, while GitHub is a web-based platform that provides hosting for Git repositories and collaboration features."
+                                    },
+                                    {
+                                      "question": "What is the purpose of unit testing?",
+                                      "answer": "Unit testing is a software testing method where individual units or components of a program are tested to ensure they function correctly."
+                                    },
+                                    {
+                                      "question": "What is the difference between a web browser and a web server?",
+                                      "answer": "A web browser is a software application used to access and view websites, while a web server is a computer or system that hosts websites and serves web pages to browsers."
+                                    },
+                                    {
+                                      "question": "What is the role of a web server in web development?",
+                                      "answer": "A web server is responsible for receiving and processing client requests, fetching data from databases or other sources, and sending back the requested web pages or resources."
+                                    },
+                                    {
+                                      "question": "What is a front-end framework?",
+                                      "answer": "A front-end framework is a collection of pre-written code and libraries that provide a foundation for building user interfaces and web applications."
+                                    },
+                                    {
+                                      "question": "What is the purpose of a wireframe in web development?",
+                                      "answer": "A wireframe is a visual representation or blueprint that outlines the structure and layout of a web page or application."
+                                    },
+                                    {
+                                      "question": "What is a responsive web framework?",
+                                      "answer": "A responsive web framework is a front-end framework that offers built-in tools and components for creating mobile-friendly and responsive web designs."
+                                    },
+                                    {
+                                      "question": "What is a web API?",
+                                      "answer": "A web API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other."
+                                    },
+                                    {
+                                      "question": "What is a static website?",
+                                      "answer": "A static website consists of HTML, CSS, and JavaScript files that are served as-is to the client, without any server-side processing."
+                                    },
+                                    {
+                                      "question": "What is a dynamic website?",
+                                      "answer": "A dynamic website generates content on the server-side, typically by retrieving data from a database and processing it before sending it to the client."
+                                    },
+                                    {
+                                      "question": "What is the role of a web developer?",
+                                      "answer": "A web developer designs and builds websites and web applications, writes code, creates layouts, and ensures the functionality and responsiveness of the web projects."
+                                    },
+                                    {
+                                      "question": "What is the difference between HTTP and HTTPS?",
+                                      "answer": "HTTP (Hypertext Transfer Protocol) is a protocol used for transmitting data over the internet, while HTTPS (Hypertext Transfer Protocol Secure) is a secure version of HTTP that encrypts data for secure communication."
+                                    },
+                                    {
+                                      "question": "What is the purpose of a web server framework?",
+                                      "answer": "A web server framework provides a foundation and tools for building web applications that run on a web server, handling HTTP requests and responses."
+                                    },
+                                    {
+                                      "question": "What is a front-end developer?",
+                                      "answer": "A front-end developer specializes in creating the user interface and user experience of websites and web applications using HTML, CSS, and JavaScript."
+                                    },
+                                    {
+                                      "question": "What is a back-end developer?",
+                                      "answer": "A back-end developer focuses on the server-side development of websites and web applications, handling data storage, processing, and server logic."
+                                    },
+                                    {
+                                      "question": "What is the role of a database in web development?",
+                                      "answer": "A database stores and manages the data used by web applications, allowing for efficient retrieval, manipulation, and storage of information."
+                                    },
+                                    {
+                                      "question": "What is a web hosting service?",
+                                      "answer": "A web hosting service is a provider that allows individuals and organizations to make their websites or web applications accessible on the internet."
+                                    },
+                                    {
+                                      "question": "What is a domain name?",
+                                      "answer": "A domain name is the unique address used to access a website on the internet, such as www.example.com."
+                                    },
+                                    {
+                                      "question": "What is the purpose of server-side scripting?",
+                                      "answer": "Server-side scripting allows for dynamic generation of web content on the server before sending it to the client, enabling customizations and interactions."
+                                    },
+                                    {
+                                      "question": "What is the role of JavaScript in web development?",
+                                      "answer": "JavaScript is primarily used for enhancing interactivity and adding dynamic behavior to websites and web applications."
+                                    },
+                                    {
+                                      "question": "What is a programming language?",
+                                      "answer": "A programming language is a formal language used to write instructions that can be executed by a computer to perform specific tasks."
+                                    },
+                                    {
+                                      "question": "What is a CMS platform?",
+                                      "answer": "A CMS platform is a software application or system that provides tools and features for creating, managing, and publishing digital content."
+                                    },
+                                    {
+                                      "question": "What is the role of a web designer?",
+                                      "answer": "A web designer focuses on the visual aspects of websites and web applications, including layouts, color schemes, typography, and user experience."
                                     }
                                   
                         
